@@ -3,7 +3,7 @@
  "set": 19,
  "nom_set": "Prismatic Tour",
  "etat": "fuites",
- "maj": "2026-11-15T14:02:07+01:00",
+ "maj": "2026-11-15T14:17:17+01:00",
  "connus": {
   "champions": 93
  },
@@ -177,7 +177,7 @@
    "confiance": "moyenne",
    "nom": "K|DA · Neeko",
    "pourquoi": {
-    "fr": "K|DA compte les niveaux d'étoiles, pas les champions : le trait est taillé pour les trois étoiles, et ses deux 1-coûts en sont la base.",
+    "fr": "K|DA compte les niveaux d'étoiles, pas les champions : le trait est taillé pour les trois étoiles, et ses deux 1 costs en sont la base.",
     "en": "K|DA counts star levels, not champions: the trait is built for 3-stars, and its two 1-costs are the foundation.",
     "ko": "K|DA는 챔피언 수가 아니라 별 개수를 셉니다. 3성을 위한 시너지이고, 1코스트 두 명이 그 기반입니다.",
     "ja": "K|DAはチャンピオンの数ではなく☆の数を数えます。☆3向けのシナジーで、2体の1コストが土台です。",
@@ -479,7 +479,7 @@
    ],
    "true_damage": "A",
    "tomberait_si": {
-    "fr": "Si les cadeaux d'Ionic Spark au palier 5 ne compensent pas le plafond bas d'une 1-coût.",
+    "fr": "Si les cadeaux d'Ionic Spark au palier 5 ne compensent pas le plafond bas d'un 1 cost.",
     "en": "If Ionic Spark's gifts at 5 don't make up for a 1-cost's low ceiling.",
     "ko": "Ionic Spark 5단계의 보상이 1코스트의 낮은 한계를 메우지 못한다면.",
     "ja": "Ionic Spark 5段階の報酬が、1コストの低い上限を補えない場合。",
@@ -662,7 +662,7 @@
    ],
    "true_damage": "A",
    "tomberait_si": {
-    "fr": "Si Lucian n'a pas de quoi porter à 2 coûts, ou si Jazz n'atteint pas 3 sans Bard.",
+    "fr": "Si Lucian n'a pas de quoi porter en étant un 2 cost, ou si Jazz n'atteint pas 3 sans Bard.",
     "en": "If Lucian can't carry at 2 cost, or if Jazz can't reach 3 without Bard.",
     "ko": "Lucian이 2코스트로 캐리하지 못하거나, Bard 없이 Jazz 3을 켜지 못한다면.",
     "ja": "Lucianが2コストでキャリーできない場合、またはBardなしでJazz 3に届かない場合。",
@@ -832,7 +832,7 @@
    ],
    "true_damage": "A",
    "tomberait_si": {
-    "fr": "Si le choix de Bias ne passe pas sur Ezreal, ou si Heartsteel 5 coûte trop cher en 4-coûts.",
+    "fr": "Si le choix de Bias ne passe pas sur Ezreal, ou si Heartsteel 5 demande trop de 4 costs.",
     "en": "If Biases can't be put on Ezreal, or if Heartsteel 5 costs too many 4-costs.",
     "ko": "Bias를 Ezreal에게 몰아줄 수 없거나, Heartsteel 5에 4코스트가 너무 많이 필요하다면.",
     "ja": "BiasをEzrealに付けられない場合、またはHeartsteel 5に4コストが多く必要すぎる場合。",
@@ -2074,7 +2074,7 @@
    ],
    "true_damage": null,
    "tomberait_si": {
-    "fr": "Si Classical 4 ne protège pas assez une ligne de front faite de 2-coûts.",
+    "fr": "Si Classical 4 ne protège pas assez une ligne de front faite de 2 costs.",
     "en": "If Classical 4 can't protect a frontline built from 2-costs.",
     "ko": "Classical 4가 2코스트로 짠 앞라인을 지키지 못한다면.",
     "ja": "Classical 4が2コスト中心の前衛を守り切れない場合。",
@@ -2094,7 +2094,7 @@
    "confiance": "moyenne",
    "nom": "K|DA · Ahri",
    "pourquoi": {
-    "fr": "La version niveau 8 de K|DA : on garde les 1–3 coûts en deux étoiles pour les paliers en étoiles, et Ahri porte.",
+    "fr": "La version niveau 8 de K|DA : on garde les 1 à 3 costs en deux étoiles pour les paliers en étoiles, et Ahri porte.",
     "en": "K|DA's level 8 version: keep the 1–3 costs at 2 stars for the star-level breakpoints, and Ahri carries.",
     "ko": "K|DA의 8레벨 버전입니다. 별 개수 단계를 위해 1~3코스트를 2성으로 유지하고, Ahri가 캐리합니다.",
     "ja": "K|DAのレベル8版。☆数の段階のために1〜3コストを☆2で残し、Ahriがキャリーします。",
@@ -2447,7 +2447,7 @@
    ],
    "true_damage": null,
    "tomberait_si": {
-    "fr": "Si le lien R&B ne vaut pas un 5-coût dans une compo de niveau 8.",
+    "fr": "Si le lien R&B ne vaut pas un 5 cost dans une compo de niveau 8.",
     "en": "If the R&B link isn't worth a 5-cost in a level 8 comp.",
     "ko": "8레벨 덱에서 R&B 연결이 5코스트 한 자리만큼의 가치가 없다면.",
     "ja": "レベル8の構成で、R&Bの結びつきが5コスト1枠に見合わない場合。",
@@ -2659,7 +2659,7 @@
    "confiance": "speculative",
    "nom": "Composer · Baron Nashor",
    "pourquoi": {
-    "fr": "La plus grande chasse du set : cinq Instruments mystiques à réunir en boutique, puis Malzahar doit écrire son chef-d'œuvre. Au bout, Baron Nashor, un 7-coût sur deux cases.",
+    "fr": "La plus grande chasse du set : cinq Instruments mystiques à réunir en boutique, puis Malzahar doit écrire son chef-d'œuvre. Au bout, Baron Nashor, un 7 cost sur deux cases.",
     "en": "The set's biggest chase: five Mystical Instruments to collect from the shop, then Malzahar must write his masterpiece. At the end, Baron Nashor, a 7-cost taking two slots.",
     "ko": "이번 세트 최대의 추격전입니다. 상점에서 신비한 악기 다섯 개를 모은 뒤 Malzahar가 걸작을 완성해야 합니다. 끝에는 두 칸을 차지하는 7코스트 Baron Nashor가 있습니다.",
     "ja": "このセット最大の追いかけ。ショップで神秘の楽器を5つ集め、Malzaharが傑作を書き上げる必要があります。最後に待つのは2枠を占める7コストのBaron Nashorです。",

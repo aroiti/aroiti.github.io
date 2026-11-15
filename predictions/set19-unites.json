@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "set": 19,
- "maj": "2026-11-15T14:02:07+01:00",
+ "maj": "2026-11-15T14:17:17+01:00",
  "source": {
   "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
   "url": "https://www.metatft.com/new-set"
@@ -1036,7 +1036,7 @@
    ],
    "role": "AP",
    "deblocage": {
-    "fr": "un champion de chaque coût commence le combat sur une case Beach Pop",
+    "fr": "un champion de chaque cost commence le combat sur une case Beach Pop",
     "en": "a champion of each cost starts combat on a Beach Pop hex",
     "ko": "각 코스트의 챔피언이 하나씩 Beach Pop 칸에서 전투 시작",
     "ja": "各コストのチャンピオンが1体ずつBeach Popのマスで戦闘を開始する",

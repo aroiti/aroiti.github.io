@@ -9,7 +9,7 @@
 
   var I = {
     fr: {
-      cases: {A:'Compo trois étoiles · 1 coût', B:'Compo trois étoiles · 2 coûts', C:'Compo trois étoiles · 3 coûts', D:'Niveau 8 · dégâts physiques', E:'Niveau 8 · dégâts magiques', F:'Niveau 9 · légendaires', G:'Trait vertical'},
+      cases: {A:'Compo trois étoiles · 1 cost', B:'Compo trois étoiles · 2 costs', C:'Compo trois étoiles · 3 costs', D:'Niveau 8 · dégâts physiques', E:'Niveau 8 · dégâts magiques', F:'Niveau 9 · légendaires', G:'Trait vertical'},
       vide:'à remplir', n:function(k){return k + (k > 1 ? ' compos' : ' compo');},
       confiance:{forte:'confiance forte', moyenne:'confiance moyenne', speculative:'spéculative'},
       porteurs:'Porteurs', front:'Ligne de front', plateau:'Plateau complet', traits:'Traits visés', niveau:'Niveau', objets:'Objets', composants:'Composants à ramasser d’abord',

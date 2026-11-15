@@ -19,7 +19,7 @@
       devant:'Ligne de front', vider:'Vider le plateau', copier:'Copier le lien', copie:'Lien copié.', manuel:'Copie ce lien :',
       traits:'Traits', aucunTrait:'Les traits du plateau s’affichent ici.', unique:'trait unique',
       cherche:'Chercher un champion', tous:'Tous les traits', deb:'À débloquer seulement', rien:'Aucun champion ne correspond.',
-      cout:function(c){ return c + (c > 1 ? ' coûts' : ' coût'); },
+      cout:function(c){ return c + (c > 1 ? ' costs' : ' cost'); },
       etoiles:'Étoiles', embleme:'Emblème', aucun:'aucun', retirer:'Retirer du plateau', deuxCases:'Occupe deux cases.',
       debloquer:'À débloquer : ', caseVide:function(r, c){ return 'Case vide, rangée ' + r + ', colonne ' + c; },
       aide:'Clique sur un champion pour le poser. Clique sur un champion du plateau pour régler ses étoiles, lui donner un emblème ou le déplacer. Sur ordinateur, tu peux aussi le glisser.',
