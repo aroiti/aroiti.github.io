@@ -15,7 +15,10 @@
    "nom": "Hyperpop · Ziggs",
    "pourquoi": {
     "fr": "Quatre des cinq Hyperpop sont à débloquer, et la première porte s'ouvre avec Ziggs en trois étoiles équipé : c'est la ligne des déblocages.",
-    "en": "Four of the five Hyperpop champions are unlockables, and the first door opens with an itemised 3-star Ziggs: this is the unlock line."
+    "en": "Four of the five Hyperpop champions are unlockables, and the first door opens with an itemised 3-star Ziggs: this is the unlock line.",
+    "ko": "Hyperpop 챔피언 다섯 중 넷이 해금 대상이며, 첫 해금은 아이템을 든 3성 Ziggs로 열립니다. 해금을 위한 덱입니다.",
+    "ja": "Hyperpopの5体のうち4体がアンロック対象で、最初の扉はアイテムを持った☆3 Ziggsで開きます。アンロックのための構成です。",
+    "zh": "Hyperpop 的五位英雄中有四位需要解锁，第一道门由带装备的三星 Ziggs 打开：这是一条解锁路线。"
    },
    "niveau": 6,
    "porteurs": [
@@ -100,7 +103,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Ziggs en X étoiles avec X objet. Puis, dans l'ordre : Tristana (éliminations avec Hyperpop actif), Lulu (sorts Hyperpop) et Teemo (Hype accumulée).",
-     "en": "Ziggs at X stars holding X item. Then, in order: Tristana (kills with Hyperpop active), Lulu (Hyperpop casts) and Teemo (stored Hype)."
+     "en": "Ziggs at X stars holding X item. Then, in order: Tristana (kills with Hyperpop active), Lulu (Hyperpop casts) and Teemo (stored Hype).",
+     "ko": "Ziggs X성에 아이템 X 장착. 이어서 순서대로 Tristana(Hyperpop 활성 중 처치), Lulu(Hyperpop 스킬 사용), Teemo(Hype 누적).",
+     "ja": "Ziggsを☆Xにしてアイテムを持たせる。続いて順に、Tristana（Hyperpop発動中のキル）、Lulu（Hyperpopのスキル発動）、Teemo（Hypeの蓄積）。",
+     "zh": "Ziggs 升到 X 星并携带 X 件装备。之后依次是 Tristana（Hyperpop 激活时击杀）、Lulu（Hyperpop 施法）和 Teemo（累积 Hype）。"
     }
    },
    "debut": [
@@ -124,7 +130,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si Kobuko demande plus d'étoiles ou d'objets qu'un niveau 5–6 ne permet, ou si Hyperpop ne tient pas le début de partie avant ses déblocages.",
-    "en": "If Kobuko needs more stars or items than a level 5–6 board allows, or if Hyperpop can't hold the early game before its unlocks."
+    "en": "If Kobuko needs more stars or items than a level 5–6 board allows, or if Hyperpop can't hold the early game before its unlocks.",
+    "ko": "Kobuko 해금에 5~6레벨 보드로는 부족한 별이나 아이템이 필요하거나, Hyperpop이 해금 전 초반을 버티지 못한다면.",
+    "ja": "Kobukoのアンロックにレベル5〜6の盤面では足りない☆やアイテムが必要な場合、またはHyperpopがアンロック前の序盤を耐えられない場合。",
+    "zh": "如果解锁 Kobuko 所需的星级或装备超出 5–6 级阵容的能力，或 Hyperpop 在解锁之前撑不住前期。"
    },
    "sources": [
     {
@@ -141,7 +150,10 @@
    "nom": "K|DA · Neeko",
    "pourquoi": {
     "fr": "K|DA compte les niveaux d'étoiles, pas les champions : le trait est taillé pour les trois étoiles, et ses deux 1-coûts en sont la base.",
-    "en": "K|DA counts star levels, not champions: the trait is built for 3-stars, and its two 1-costs are the foundation."
+    "en": "K|DA counts star levels, not champions: the trait is built for 3-stars, and its two 1-costs are the foundation.",
+    "ko": "K|DA는 챔피언 수가 아니라 별 개수를 셉니다. 3성을 위한 시너지이고, 1코스트 두 명이 그 기반입니다.",
+    "ja": "K|DAはチャンピオンの数ではなく☆の数を数えます。☆3向けのシナジーで、2体の1コストが土台です。",
+    "zh": "K|DA 计算的是星级而不是英雄数量：这个羁绊为三星而生，两位 1 费英雄是它的基础。"
    },
    "niveau": 6,
    "porteurs": [
@@ -230,7 +242,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage. Evelynn (X champions K|DA ou Renegade) arrive en chemin.",
-     "en": "X unique K|DA star levels, without having unlocked True Damage Akali. Evelynn (X K|DA or Renegade champions) comes along the way."
+     "en": "X unique K|DA star levels, without having unlocked True Damage Akali. Evelynn (X K|DA or Renegade champions) comes along the way.",
+     "ko": "True Damage Akali를 해금하지 않은 상태에서 서로 다른 K|DA 별 X개. 도중에 Evelynn(K|DA 또는 Renegade 챔피언 X명)도 해금됩니다.",
+     "ja": "True Damage Akaliをアンロックしていない状態で、K|DAのユニークな☆をX個。途中でEvelynn（K|DAまたはRenegadeのチャンピオンX体）も手に入ります。",
+     "zh": "在未解锁 True Damage Akali 的情况下，凑齐 X 个不同的 K|DA 星级。途中还会解锁 Evelynn（X 个 K|DA 或 Renegade 英雄）。"
     }
    },
    "debut": [
@@ -254,7 +269,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si les paliers en étoiles montent trop vite pour qu'un plateau de niveau 6 atteigne 10.",
-    "en": "If the star-level breakpoints climb too fast for a level 6 board to reach 10."
+    "en": "If the star-level breakpoints climb too fast for a level 6 board to reach 10.",
+    "ko": "별 개수 단계가 너무 빨리 올라가 6레벨 보드로 10에 닿지 못한다면.",
+    "ja": "☆数の段階が上がりすぎて、レベル6の盤面で10に届かない場合。",
+    "zh": "如果星级档位涨得太快，6 级阵容凑不到 10。"
    },
    "sources": [
     {
@@ -271,7 +289,10 @@
    "nom": "Ionic Spark · Yunara",
    "pourquoi": {
     "fr": "Yunara tire un projectile de plus à chaque attaque : le profil d'une compo trois étoiles à vitesse d'attaque, dans le plus grand trait du set (dix membres).",
-    "en": "Yunara fires an extra orb on every attack: the profile of an attack-speed reroll, inside the set's biggest trait (ten members)."
+    "en": "Yunara fires an extra orb on every attack: the profile of an attack-speed reroll, inside the set's biggest trait (ten members).",
+    "ko": "Yunara는 공격할 때마다 구체를 하나 더 발사합니다. 공격 속도 리롤 덱의 전형이며, 세트에서 가장 큰 시너지(10명) 안에 있습니다.",
+    "ja": "Yunaraは攻撃のたびに追加の弾を放ちます。攻撃速度型リロールの典型で、セット最大のシナジー（10体）に属します。",
+    "zh": "Yunara 每次攻击都会多射出一枚光球：典型的攻速追三星主C，而且属于本赛季最大的羁绊（十名成员）。"
    },
    "niveau": 6,
    "porteurs": [
@@ -348,7 +369,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X objets sur un champion Ionic Spark ou Hitmaker : Yunara équipée le remplit.",
-     "en": "X items on an Ionic Spark or Hitmaker champion: an itemised Yunara fulfils it."
+     "en": "X items on an Ionic Spark or Hitmaker champion: an itemised Yunara fulfils it.",
+     "ko": "Ionic Spark 또는 Hitmaker 챔피언에게 아이템 X개. 아이템을 든 Yunara로 충족됩니다.",
+     "ja": "Ionic SparkまたはHitmakerのチャンピオンにアイテムX個。アイテムを持ったYunaraで達成できます。",
+     "zh": "让一名 Ionic Spark 或 Hitmaker 英雄携带 X 件装备：带装备的 Yunara 即可完成。"
     }
    },
    "debut": [
@@ -372,7 +396,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si les cadeaux d'Ionic Spark au palier 5 ne compensent pas le plafond bas d'une 1-coût.",
-    "en": "If Ionic Spark's gifts at 5 don't make up for a 1-cost's low ceiling."
+    "en": "If Ionic Spark's gifts at 5 don't make up for a 1-cost's low ceiling.",
+    "ko": "Ionic Spark 5단계의 보상이 1코스트의 낮은 한계를 메우지 못한다면.",
+    "ja": "Ionic Spark 5段階の報酬が、1コストの低い上限を補えない場合。",
+    "zh": "如果 Ionic Spark 5 档的奖励弥补不了 1 费英雄的低上限。"
    },
    "sources": [
     {
@@ -389,7 +416,10 @@
    "nom": "Jazz · Lucian",
    "pourquoi": {
     "fr": "Jazz donne des PV et de l'amplification par trait actif : il pousse à jouer large, exactement ce que demande le déblocage de Smeech.",
-    "en": "Jazz grants Health and Damage Amp per active trait: it pushes you to play wide, exactly what Smeech's unlock asks for."
+    "en": "Jazz grants Health and Damage Amp per active trait: it pushes you to play wide, exactly what Smeech's unlock asks for.",
+    "ko": "Jazz는 활성화된 시너지마다 체력과 피해 증폭을 줍니다. 시너지를 넓게 켜도록 유도하는데, 바로 Smeech 해금 조건입니다.",
+    "ja": "Jazzは発動中のシナジーごとに体力とダメージ増幅を与えます。シナジーを幅広く発動させる方向に働き、まさにSmeechのアンロック条件と一致します。",
+    "zh": "Jazz 按激活的羁绊数量提供生命值和伤害增幅：它鼓励多开羁绊，正是 Smeech 的解锁条件。"
    },
    "niveau": 6,
    "porteurs": [
@@ -481,7 +511,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X traits non uniques actifs ou plus. Smeech coûte 7 : à viser au niveau 8–9, une fois Lucian en trois étoiles.",
-     "en": "X or more non-unique traits active. Smeech costs 7: aim for it at level 8–9, once Lucian is 3-star."
+     "en": "X or more non-unique traits active. Smeech costs 7: aim for it at level 8–9, once Lucian is 3-star.",
+     "ko": "고유하지 않은 시너지 X개 이상 활성화. Smeech는 7코스트이므로 Lucian 3성 이후 8~9레벨에서 노립니다.",
+     "ja": "ユニークでないシナジーをX個以上発動。Smeechは7コストなので、Lucianを☆3にした後、レベル8〜9で狙います。",
+     "zh": "激活 X 个或以上非独特羁绊。Smeech 是 7 费：在 Lucian 三星之后，于 8–9 级去追。"
     }
    },
    "debut": [
@@ -505,7 +538,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si Lucian n'a pas de quoi porter à 2 coûts, ou si Jazz n'atteint pas 3 sans Bard.",
-    "en": "If Lucian can't carry at 2 cost, or if Jazz can't reach 3 without Bard."
+    "en": "If Lucian can't carry at 2 cost, or if Jazz can't reach 3 without Bard.",
+    "ko": "Lucian이 2코스트로 캐리하지 못하거나, Bard 없이 Jazz 3을 켜지 못한다면.",
+    "ja": "Lucianが2コストでキャリーできない場合、またはBardなしでJazz 3に届かない場合。",
+    "zh": "如果 Lucian 作为 2 费撑不起主C，或没有 Bard 就开不了 Jazz 3。"
    },
    "sources": [
     {
@@ -522,7 +558,10 @@
    "nom": "Heartsteel · Ezreal",
    "pourquoi": {
     "fr": "Heartsteel améliore le sort de ses membres : Ezreal y gagne une explosion plus large tous les trois sorts, et la ligne débloque Alune puis Aphelios en chemin.",
-    "en": "Heartsteel upgrades its members' abilities: Ezreal's every third cast gets a wider blast, and the line unlocks Alune, then Aphelios, along the way."
+    "en": "Heartsteel upgrades its members' abilities: Ezreal's every third cast gets a wider blast, and the line unlocks Alune, then Aphelios, along the way.",
+    "ko": "Heartsteel은 소속 챔피언의 스킬을 강화합니다. Ezreal은 세 번째 스킬마다 더 넓게 폭발하고, 이 덱은 도중에 Alune, 이어서 Aphelios를 해금합니다.",
+    "ja": "Heartsteelはメンバーのスキルを強化します。Ezrealは3回目のスキルごとに爆発範囲が広がり、この構成は途中でAlune、続いてApheliosをアンロックします。",
+    "zh": "Heartsteel 会强化成员的技能：Ezreal 每第三次施法会造成范围更大的爆炸，这条路线还会顺路解锁 Alune，再解锁 Aphelios。"
    },
    "niveau": 6,
    "porteurs": [
@@ -606,7 +645,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X champions Heartsteel ou Prodigy différents. Ensuite, Aphelios : Alune ou Yone en X étoiles.",
-     "en": "X different Heartsteel or Prodigy champions. Then Aphelios: Alune or Yone at X stars."
+     "en": "X different Heartsteel or Prodigy champions. Then Aphelios: Alune or Yone at X stars.",
+     "ko": "서로 다른 Heartsteel 또는 Prodigy 챔피언 X명. 이어서 Aphelios: Alune 또는 Yone X성.",
+     "ja": "HeartsteelまたはProdigyの異なるチャンピオンをX体。続いてAphelios：AluneまたはYoneを☆X。",
+     "zh": "X 个不同的 Heartsteel 或 Prodigy 英雄。之后解锁 Aphelios：Alune 或 Yone 升到 X 星。"
     }
    },
    "debut": [
@@ -630,7 +672,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si le choix de Bias ne passe pas sur Ezreal, ou si Heartsteel 5 coûte trop cher en 4-coûts.",
-    "en": "If Biases can't be put on Ezreal, or if Heartsteel 5 costs too many 4-costs."
+    "en": "If Biases can't be put on Ezreal, or if Heartsteel 5 costs too many 4-costs.",
+    "ko": "Bias를 Ezreal에게 몰아줄 수 없거나, Heartsteel 5에 4코스트가 너무 많이 필요하다면.",
+    "ja": "BiasをEzrealに付けられない場合、またはHeartsteel 5に4コストが多く必要すぎる場合。",
+    "zh": "如果 Bias 无法给到 Ezreal，或 Heartsteel 5 需要太多 4 费英雄。"
    },
    "sources": [
     {
@@ -647,7 +692,10 @@
    "nom": "Ionic Spark · Lux",
    "pourquoi": {
     "fr": "Lux regagne du mana à chaque élimination : un sort qui s'enchaîne en trois étoiles, avec Annie et Tibbers comme ligne de front du même trait.",
-    "en": "Lux regains Mana on each kill: a spell that chains at 3 stars, with Annie and Tibbers as a same-trait frontline."
+    "en": "Lux regains Mana on each kill: a spell that chains at 3 stars, with Annie and Tibbers as a same-trait frontline.",
+    "ko": "Lux는 처치할 때마다 마나를 회복합니다. 3성이면 스킬이 연달아 나가고, 같은 시너지의 Annie와 Tibbers가 앞라인을 맡습니다.",
+    "ja": "Luxはキルのたびにマナを回復します。☆3でスキルが連発し、同じシナジーのAnnieとTibbersが前衛を担います。",
+    "zh": "Lux 每次击杀都会回复法力：三星后技能可以连放，同羁绊的 Annie 和 Tibbers 负责前排。"
    },
    "niveau": 6,
    "porteurs": [
@@ -732,7 +780,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Annie en X étoiles avec X objet : Annie fait déjà partie du plateau.",
-     "en": "Annie at X stars holding X item: Annie is already on the board."
+     "en": "Annie at X stars holding X item: Annie is already on the board.",
+     "ko": "Annie X성에 아이템 X 장착. Annie는 이미 보드에 있습니다.",
+     "ja": "Annieを☆Xにしてアイテムを持たせる。Annieはもともと盤面にいます。",
+     "zh": "Annie 升到 X 星并携带 X 件装备：Annie 本来就在场上。"
     }
    },
    "debut": [
@@ -756,7 +807,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si Lux et Yunara se disputent les mêmes Ionic Spark : deux compos trois étoiles du même trait se contestent.",
-    "en": "If Lux and Yunara fight over the same Ionic Spark units: two rerolls of one trait contest each other."
+    "en": "If Lux and Yunara fight over the same Ionic Spark units: two rerolls of one trait contest each other.",
+    "ko": "Lux와 Yunara가 같은 Ionic Spark 챔피언을 두고 다툰다면. 한 시너지의 리롤 덱 두 개는 서로 겹칩니다.",
+    "ja": "LuxとYunaraが同じIonic Sparkのユニットを取り合う場合。同じシナジーのリロール構成2つは互いに競合します。",
+    "zh": "如果 Lux 和 Yunara 争抢同一批 Ionic Spark 英雄：同一羁绊的两套追三星阵容会互相卡牌。"
    },
    "sources": [
     {
@@ -773,7 +827,10 @@
    "nom": "K|DA · Kai'Sa",
    "pourquoi": {
     "fr": "En trois étoiles, Kai'Sa vaut à elle seule trois niveaux d'étoiles pour K|DA : la compo trois étoiles et le trait vertical se nourrissent l'un l'autre.",
-    "en": "At 3 stars, Kai'Sa alone is worth three K|DA star levels: the reroll and the vertical trait feed each other."
+    "en": "At 3 stars, Kai'Sa alone is worth three K|DA star levels: the reroll and the vertical trait feed each other.",
+    "ko": "3성 Kai'Sa 혼자서 K|DA 별 세 개의 가치가 있습니다. 리롤과 시너지 집중이 서로를 키웁니다.",
+    "ja": "☆3のKai'Saは1体でK|DAの☆3つ分になります。リロールと縦シナジーが互いを支えます。",
+    "zh": "三星 Kai'Sa 一人就提供三个 K|DA 星级：追三星和纯羁绊相互成就。"
    },
    "niveau": 7,
    "porteurs": [
@@ -858,7 +915,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage.",
-     "en": "X unique K|DA star levels, without having unlocked True Damage Akali."
+     "en": "X unique K|DA star levels, without having unlocked True Damage Akali.",
+     "ko": "True Damage Akali를 해금하지 않은 상태에서 서로 다른 K|DA 별 X개.",
+     "ja": "True Damage Akaliをアンロックしていない状態で、K|DAのユニークな☆をX個。",
+     "zh": "在未解锁 True Damage Akali 的情况下，凑齐 X 个不同的 K|DA 星级。"
     }
    },
    "debut": [
@@ -882,7 +942,10 @@
    "true_damage": "B",
    "tomberait_si": {
     "fr": "Si K|DA est contesté par les compos Neeko et Ahri du même lobby : trois lignes pour un seul trait.",
-    "en": "If K|DA gets contested by Neeko and Ahri players in the same lobby: three lines for one trait."
+    "en": "If K|DA gets contested by Neeko and Ahri players in the same lobby: three lines for one trait.",
+    "ko": "같은 로비의 Neeko, Ahri 덱과 K|DA가 겹친다면. 한 시너지에 덱이 셋입니다.",
+    "ja": "同じロビーのNeeko構成やAhri構成とK|DAを取り合う場合。1つのシナジーに3つの構成です。",
+    "zh": "如果同一局里有人玩 Neeko 和 Ahri，与你争抢 K|DA：一个羁绊对应三套阵容。"
    },
    "sources": [
     {
@@ -899,7 +962,10 @@
    "nom": "True Damage · Senna",
    "pourquoi": {
     "fr": "Le trait du disque : la face B paie les défaites, ce qui finance la relance au niveau 7 ; True Damage 5 ajoute des dégâts bruts quand Senna est trois étoiles.",
-    "en": "The record trait: side B pays for losses, which funds the level 7 roll-down; True Damage 5 adds true damage once Senna is 3-star."
+    "en": "The record trait: side B pays for losses, which funds the level 7 roll-down; True Damage 5 adds true damage once Senna is 3-star.",
+    "ko": "음반 시너지입니다. B면은 패배로 보상을 주어 7레벨 리롤 자금을 마련하고, Senna가 3성이 되면 True Damage 5가 고정 피해를 더합니다.",
+    "ja": "レコードのシナジー。B面は敗北で報酬が入り、レベル7のリロール資金になります。Senna☆3後はTrue Damage 5が確定ダメージを上乗せします。",
+    "zh": "唱片羁绊：B 面在输掉时给奖励，为 7 级 D 牌攒钱；Senna 三星后，True Damage 5 额外附加真实伤害。"
    },
    "niveau": 7,
    "porteurs": [
@@ -983,7 +1049,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X niveaux d'étoiles de champions True Damage et Slayer : Senna, Qiyana et Ekko améliorés le remplissent.",
-     "en": "X star levels of True Damage and Slayer champions: upgraded Senna, Qiyana and Ekko fulfil it."
+     "en": "X star levels of True Damage and Slayer champions: upgraded Senna, Qiyana and Ekko fulfil it.",
+     "ko": "True Damage와 Slayer 챔피언의 별 합계 X개. 성급을 올린 Senna, Qiyana, Ekko로 충족됩니다.",
+     "ja": "True DamageとSlayerのチャンピオンの☆合計X個。☆を上げたSenna、Qiyana、Ekkoで達成できます。",
+     "zh": "True Damage 与 Slayer 英雄合计 X 个星级：升星后的 Senna、Qiyana 和 Ekko 即可完成。"
     }
    },
    "debut": [
@@ -1007,7 +1076,10 @@
    "true_damage": "B",
    "tomberait_si": {
     "fr": "Si le Bling de la face B ne rapporte pas assez pour compenser les PV perdus.",
-    "en": "If side B's Bling doesn't pay enough to make up for the Health lost."
+    "en": "If side B's Bling doesn't pay enough to make up for the Health lost.",
+    "ko": "B면의 Bling 보상이 잃은 체력을 메울 만큼 충분하지 않다면.",
+    "ja": "B面のBlingが、失った体力に見合うほど稼げない場合。",
+    "zh": "如果 B 面的 Bling 收益不足以弥补损失的血量。"
    },
    "sources": [
     {
@@ -1024,7 +1096,10 @@
    "nom": "Pentakill · Viego",
    "pourquoi": {
     "fr": "Viego garde une épée de plus à chaque élimination, et Pentakill exécute les ennemis bas en PV : un combattant qui grossit pendant le combat.",
-    "en": "Viego keeps an extra sword with each takedown, and Pentakill executes low-Health enemies: a fighter that snowballs during combat."
+    "en": "Viego keeps an extra sword with each takedown, and Pentakill executes low-Health enemies: a fighter that snowballs during combat.",
+    "ko": "Viego는 처치에 관여할 때마다 검을 하나 더 얻고, Pentakill은 체력이 낮은 적을 처형합니다. 전투 중에 점점 강해지는 전사입니다.",
+    "ja": "Viegoはキルに関与するたびに剣を1本増やし、Pentakillは体力の低い敵を処刑します。戦闘中に雪だるま式に強くなるファイターです。",
+    "zh": "Viego 每次参与击杀都会多保留一把剑，Pentakill 会处决低血量敌人：一个在战斗中越打越强的战士。"
    },
    "niveau": 7,
    "porteurs": [
@@ -1112,7 +1187,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X niveaux d'étoiles uniques de Pentakill : Viego trois étoiles en apporte trois.",
-     "en": "X unique Pentakill star levels: a 3-star Viego brings three."
+     "en": "X unique Pentakill star levels: a 3-star Viego brings three.",
+     "ko": "서로 다른 Pentakill 별 X개. 3성 Viego가 세 개를 채웁니다.",
+     "ja": "Pentakillのユニークな☆をX個。☆3のViegoで3つ分になります。",
+     "zh": "X 个不同的 Pentakill 星级：三星 Viego 提供三个。"
     }
    },
    "debut": [
@@ -1136,7 +1214,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si Viego tombe avant d'avoir ses premières éliminations : un combattant sans soin de départ.",
-    "en": "If Viego dies before his first takedowns: a fighter with no early sustain."
+    "en": "If Viego dies before his first takedowns: a fighter with no early sustain.",
+    "ko": "Viego가 첫 처치 전에 쓰러진다면. 초반 유지력이 없는 전사입니다.",
+    "ja": "Viegoが最初のキル前に倒れる場合。序盤の継戦能力がないファイターです。",
+    "zh": "如果 Viego 在拿到第一次击杀前就倒下：一个缺乏前期续航的战士。"
    },
    "sources": [
     {
@@ -1153,7 +1234,10 @@
    "nom": "Gu Feng · Xayah",
    "pourquoi": {
     "fr": "Trois des quatre Gu Feng se débloquent avec Xayah sur le plateau : elle est la clé du trait, et Gu Feng 4 ouvre un chemin jusqu'au niveau 11.",
-    "en": "Three of the four Gu Feng champions unlock with Xayah on the board: she is the trait's key, and Gu Feng 4 opens a path to level 11."
+    "en": "Three of the four Gu Feng champions unlock with Xayah on the board: she is the trait's key, and Gu Feng 4 opens a path to level 11.",
+    "ko": "Gu Feng 넷 중 셋은 Xayah가 보드에 있을 때 해금됩니다. Xayah가 시너지의 열쇠이며, Gu Feng 4는 11레벨로 가는 길을 엽니다.",
+    "ja": "Gu Fengの4体のうち3体は、Xayahが盤面にいるとアンロックされます。Xayahがシナジーの鍵で、Gu Feng 4はレベル11への道を開きます。",
+    "zh": "Gu Feng 四位英雄中有三位需要 Xayah 在场才能解锁：她是这个羁绊的钥匙，Gu Feng 4 还能开启通往 11 级的道路。"
    },
    "niveau": 8,
    "porteurs": [
@@ -1249,7 +1333,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Vos alliés infligent X dégâts avec Xayah sur le plateau. Puis Janna (X or d'intérêts avec Xayah) et Lee Sin (X dégâts aux joueurs avec Xayah).",
-     "en": "Allies deal X damage while Xayah is fielded. Then Janna (X interest with Xayah) and Lee Sin (X player damage with Xayah)."
+     "en": "Allies deal X damage while Xayah is fielded. Then Janna (X interest with Xayah) and Lee Sin (X player damage with Xayah).",
+     "ko": "Xayah가 보드에 있는 동안 아군이 피해 X. 이어서 Janna(Xayah와 함께 이자 X골드), Lee Sin(Xayah와 함께 플레이어 피해 X).",
+     "ja": "Xayahが盤面にいる間に味方がXダメージを与える。続いてJanna（Xayahと一緒に利子Xゴールド）、Lee Sin（Xayahと一緒にプレイヤーへXダメージ）。",
+     "zh": "Xayah 在场时友军造成 X 点伤害。之后是 Janna（Xayah 在场时获得 X 利息）和 Lee Sin（Xayah 在场时对玩家造成 X 伤害）。"
     }
    },
    "debut": [
@@ -1273,7 +1360,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si les trois déblocages arrivent trop tard pour qu'il reste des PV à convertir en niveau 11.",
-    "en": "If the three unlocks come too late to have Health left to turn into level 11."
+    "en": "If the three unlocks come too late to have Health left to turn into level 11.",
+    "ko": "세 번의 해금이 너무 늦어 11레벨로 바꿀 체력이 남지 않는다면.",
+    "ja": "3つのアンロックが遅すぎて、レベル11に変える体力が残らない場合。",
+    "zh": "如果三次解锁来得太晚，已经没有血量换 11 级。"
    },
    "sources": [
     {
@@ -1290,7 +1380,10 @@
    "nom": "Rock · Vayne",
    "pourquoi": {
     "fr": "Vayne se débloque en jouant Rock, et l'Idole infernale grandit avec les étoiles de vos Rock : un début Rock mène à elle sans détour.",
-    "en": "Vayne unlocks by playing Rock, and the Infernal Idol grows with your Rock champions' stars: a Rock opener leads to her directly."
+    "en": "Vayne unlocks by playing Rock, and the Infernal Idol grows with your Rock champions' stars: a Rock opener leads to her directly.",
+    "ko": "Vayne은 Rock을 운영하면 해금되고, Infernal Idol은 Rock 챔피언의 별에 따라 커집니다. Rock으로 시작하면 곧장 Vayne으로 이어집니다.",
+    "ja": "VayneはRockを使うとアンロックされ、Infernal IdolはRockチャンピオンの☆に応じて成長します。Rockの序盤からそのままVayneにつながります。",
+    "zh": "Vayne 通过使用 Rock 解锁，Infernal Idol 会随 Rock 英雄的星级成长：Rock 开局可以直接过渡到她。"
    },
    "niveau": 8,
    "porteurs": [
@@ -1382,7 +1475,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Jouer Rock pendant X combats. Pyke (finir un combat avec X or) en capstone.",
-     "en": "Field Rock for X combats. Pyke (end combat with X gold) as the capstone."
+     "en": "Field Rock for X combats. Pyke (end combat with X gold) as the capstone.",
+     "ko": "X번의 전투 동안 Rock 활성화. 마무리로 Pyke(전투 종료 시 X골드 이상).",
+     "ja": "X戦のあいだRockを発動。仕上げにPyke（戦闘終了時にXゴールド以上）。",
+     "zh": "让 Rock 在场 X 场战斗。最后追 Pyke（战斗结束时持有 X 金币或以上）。"
     }
    },
    "debut": [
@@ -1406,7 +1502,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si l'Idole ne suit pas sans Rock 7, ou si Vayne n'est pas en boutique au moment du déblocage.",
-    "en": "If the Idol falls off without Rock 7, or if Vayne isn't in shop when she unlocks."
+    "en": "If the Idol falls off without Rock 7, or if Vayne isn't in shop when she unlocks.",
+    "ko": "Rock 7 없이는 Idol이 약해지거나, 해금 시점에 Vayne이 상점에 없다면.",
+    "ja": "Rock 7なしではIdolが弱くなる場合、またはアンロック時にVayneがショップに出ない場合。",
+    "zh": "如果没有 Rock 7 时 Idol 跟不上，或解锁时商店里刷不出 Vayne。"
    },
    "sources": [
     {
@@ -1423,7 +1522,10 @@
    "nom": "Classical · Jhin",
    "pourquoi": {
     "fr": "Jhin convertit la vitesse d'attaque en dégâts et Classical captive les ennemis : ses violons immobilisent pendant qu'il frappe.",
-    "en": "Jhin converts Attack Speed into Attack Damage and Classical captivates enemies: his violins lock targets while he hits."
+    "en": "Jhin converts Attack Speed into Attack Damage and Classical captivates enemies: his violins lock targets while he hits.",
+    "ko": "Jhin은 공격 속도를 공격력으로 바꾸고, Classical은 적을 매혹합니다. 바이올린이 적을 묶는 동안 Jhin이 때립니다.",
+    "ja": "Jhinは攻撃速度を攻撃力に変換し、Classicalは敵を魅了します。バイオリンが敵を止めている間にJhinが撃ちます。",
+    "zh": "Jhin 将攻速转化为攻击力，Classical 会让敌人着迷：小提琴控住目标时 Jhin 输出。"
    },
    "niveau": 8,
    "porteurs": [
@@ -1504,7 +1606,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Les ennemis passent X secondes captivés par Classical : la ligne le fait dès Classical 2.",
-     "en": "Enemies spend X seconds Captivated by Classical: the line does it from Classical 2."
+     "en": "Enemies spend X seconds Captivated by Classical: the line does it from Classical 2.",
+     "ko": "적이 Classical에 X초 동안 매혹됨. Classical 2부터 이 덱에서 충족됩니다.",
+     "ja": "敵がClassicalでX秒間魅了される。この構成ならClassical 2から達成できます。",
+     "zh": "敌人被 Classical 着迷 X 秒：这套阵容从 Classical 2 起就能完成。"
     }
    },
    "debut": [
@@ -1528,7 +1633,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si Classical 4 ne protège pas assez une ligne de front faite de 2-coûts.",
-    "en": "If Classical 4 can't protect a frontline built from 2-costs."
+    "en": "If Classical 4 can't protect a frontline built from 2-costs.",
+    "ko": "Classical 4가 2코스트로 짠 앞라인을 지키지 못한다면.",
+    "ja": "Classical 4が2コスト中心の前衛を守り切れない場合。",
+    "zh": "如果 Classical 4 保不住由 2 费英雄组成的前排。"
    },
    "sources": [
     {
@@ -1545,7 +1653,10 @@
    "nom": "K|DA · Ahri",
    "pourquoi": {
     "fr": "La version niveau 8 de K|DA : on garde les 1–3 coûts en deux étoiles pour les paliers en étoiles, et Ahri porte.",
-    "en": "K|DA's level 8 version: keep the 1–3 costs at 2 stars for the star-level breakpoints, and Ahri carries."
+    "en": "K|DA's level 8 version: keep the 1–3 costs at 2 stars for the star-level breakpoints, and Ahri carries.",
+    "ko": "K|DA의 8레벨 버전입니다. 별 개수 단계를 위해 1~3코스트를 2성으로 유지하고, Ahri가 캐리합니다.",
+    "ja": "K|DAのレベル8版。☆数の段階のために1〜3コストを☆2で残し、Ahriがキャリーします。",
+    "zh": "K|DA 的 8 级版本：为了星级档位保留 1–3 费的二星英雄，由 Ahri 担任主C。"
    },
    "niveau": 8,
    "porteurs": [
@@ -1634,7 +1745,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage.",
-     "en": "X unique K|DA star levels, without having unlocked True Damage Akali."
+     "en": "X unique K|DA star levels, without having unlocked True Damage Akali.",
+     "ko": "True Damage Akali를 해금하지 않은 상태에서 서로 다른 K|DA 별 X개.",
+     "ja": "True Damage Akaliをアンロックしていない状態で、K|DAのユニークな☆をX個。",
+     "zh": "在未解锁 True Damage Akali 的情况下，凑齐 X 个不同的 K|DA 星级。"
     }
    },
    "debut": [
@@ -1658,7 +1772,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si K|DA 13 demande trop de deux étoiles pour un niveau 8.",
-    "en": "If K|DA 13 needs too many 2-stars for level 8."
+    "en": "If K|DA 13 needs too many 2-stars for level 8.",
+    "ko": "K|DA 13에 8레벨로는 2성이 너무 많이 필요하다면.",
+    "ja": "K|DA 13にレベル8では☆2が多く必要すぎる場合。",
+    "zh": "如果 K|DA 13 需要的二星英雄超出 8 级能容纳的数量。"
    },
    "sources": [
     {
@@ -1675,7 +1792,10 @@
    "nom": "Arcanist · Mel",
    "pourquoi": {
     "fr": "Mel et Rell sont liés par R&B : Rell encaisse une part des dégâts de Mel et se soigne avec ses sorts. Arcanist donne de la puissance à toute l'équipe.",
-    "en": "Mel and Rell are linked by R&B: Rell absorbs part of Mel's damage taken and heals from her spells. Arcanist gives the whole team Ability Power."
+    "en": "Mel and Rell are linked by R&B: Rell absorbs part of Mel's damage taken and heals from her spells. Arcanist gives the whole team Ability Power.",
+    "ko": "Mel과 Rell은 R&B로 연결됩니다. Rell은 Mel이 받는 피해 일부를 대신 받고 Mel의 스킬로 회복합니다. Arcanist는 팀 전체에 주문력을 줍니다.",
+    "ja": "MelとRellはR&Bで結ばれています。RellはMelの被ダメージの一部を肩代わりし、Melのスキルで回復します。Arcanistはチーム全体に魔力を与えます。",
+    "zh": "Mel 和 Rell 由 R&B 相连：Rell 替 Mel 承受部分伤害，并从她的技能中回血。Arcanist 为全队提供法术强度。"
    },
    "niveau": 8,
    "porteurs": [
@@ -1767,7 +1887,10 @@
     "sur_le_chemin": false,
     "condition": {
      "fr": "N'avoir que X champion dans les deux premières rangées : un placement à construire exprès.",
-     "en": "Only X champion in the two front rows: a placement you have to build on purpose."
+     "en": "Only X champion in the two front rows: a placement you have to build on purpose.",
+     "ko": "앞 두 줄에 챔피언 X명만 배치. 일부러 만들어야 하는 배치입니다.",
+     "ja": "前2列にチャンピオンをX体だけ置く。意図して作る必要のある配置です。",
+     "zh": "前两排只放 X 名英雄：需要刻意摆出来的站位。"
     }
    },
    "debut": [
@@ -1791,7 +1914,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si le lien R&B ne vaut pas un 5-coût dans une compo de niveau 8.",
-    "en": "If the R&B link isn't worth a 5-cost in a level 8 comp."
+    "en": "If the R&B link isn't worth a 5-cost in a level 8 comp.",
+    "ko": "8레벨 덱에서 R&B 연결이 5코스트 한 자리만큼의 가치가 없다면.",
+    "ja": "レベル8の構成で、R&Bの結びつきが5コスト1枠に見合わない場合。",
+    "zh": "如果在 8 级阵容里，R&B 的联动不值一个 5 费位置。"
    },
    "sources": [
     {
@@ -1808,7 +1934,10 @@
    "nom": "Ionic Spark · Aurora",
    "pourquoi": {
     "fr": "Aurora frappe les deux ennemis les plus résistants : la porteuse qui manquait à Ionic Spark, dont le palier 7 rapporte or et objets.",
-    "en": "Aurora hits the two highest-Health enemies: the carry Ionic Spark needs, and its 7 tier pays gold and consumables."
+    "en": "Aurora hits the two highest-Health enemies: the carry Ionic Spark needs, and its 7 tier pays gold and consumables.",
+    "ko": "Aurora는 체력이 가장 높은 적 둘을 공격합니다. Ionic Spark에 필요한 캐리이며, 7단계는 골드와 소모품을 줍니다.",
+    "ja": "Auroraは体力の最も高い敵2体を攻撃します。Ionic Sparkに必要なキャリーで、7段階ではゴールドと消耗品が手に入ります。",
+    "zh": "Aurora 攻击血量最高的两名敌人：正是 Ionic Spark 需要的主C，而 7 档还会给金币和消耗品。"
    },
    "niveau": 8,
    "porteurs": [
@@ -1900,7 +2029,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Les fans d'Ionic Spark applaudissent X fois : le trait le fait tout seul.",
-     "en": "Ionic Spark fans cheer X times: the trait does it by itself."
+     "en": "Ionic Spark fans cheer X times: the trait does it by itself.",
+     "ko": "Ionic Spark 팬이 X번 환호. 시너지가 알아서 채웁니다.",
+     "ja": "Ionic SparkのファンがX回声援を送る。シナジーだけで自然に達成します。",
+     "zh": "Ionic Spark 的粉丝欢呼 X 次：羁绊自己就能完成。"
     }
    },
    "debut": [
@@ -1924,7 +2056,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si Ionic Spark 7 est trop contesté par les deux compos trois étoiles du même trait.",
-    "en": "If Ionic Spark 7 is too contested by the two rerolls of the same trait."
+    "en": "If Ionic Spark 7 is too contested by the two rerolls of the same trait.",
+    "ko": "같은 시너지의 리롤 덱 두 개 때문에 Ionic Spark 7이 너무 겹친다면.",
+    "ja": "同じシナジーのリロール構成2つと競合して、Ionic Spark 7が取り合いになる場合。",
+    "zh": "如果同羁绊的两套追三星阵容让 Ionic Spark 7 卡牌太严重。"
    },
    "sources": [
     {
@@ -1941,7 +2076,10 @@
    "nom": "Composer · Baron Nashor",
    "pourquoi": {
     "fr": "La plus grande chasse du set : cinq Instruments mystiques à réunir en boutique, puis Malzahar doit écrire son chef-d'œuvre. Au bout, Baron Nashor, un 7-coût sur deux cases.",
-    "en": "The set's biggest chase: five Mystical Instruments to collect from the shop, then Malzahar must write his masterpiece. At the end, Baron Nashor, a 7-cost taking two slots."
+    "en": "The set's biggest chase: five Mystical Instruments to collect from the shop, then Malzahar must write his masterpiece. At the end, Baron Nashor, a 7-cost taking two slots.",
+    "ko": "이번 세트 최대의 추격전입니다. 상점에서 신비한 악기 다섯 개를 모은 뒤 Malzahar가 걸작을 완성해야 합니다. 끝에는 두 칸을 차지하는 7코스트 Baron Nashor가 있습니다.",
+    "ja": "このセット最大の追いかけ。ショップで神秘の楽器を5つ集め、Malzaharが傑作を書き上げる必要があります。最後に待つのは2枠を占める7コストのBaron Nashorです。",
+    "zh": "本赛季最大的追逐：从商店集齐五件神秘乐器，再让 Malzahar 写出他的杰作。终点是占两个位置的 7 费 Baron Nashor。"
    },
    "niveau": 9,
    "porteurs": [
@@ -2030,7 +2168,10 @@
     "sur_le_chemin": false,
     "condition": {
      "fr": "Réunir les cinq Instruments mystiques (un par rareté, ils apparaissent en boutique) et que Malzahar inflige X dégâts.",
-     "en": "Collect all five Mystical Instruments (one per rarity, they appear in the shop) and have Malzahar deal X damage."
+     "en": "Collect all five Mystical Instruments (one per rarity, they appear in the shop) and have Malzahar deal X damage.",
+     "ko": "신비한 악기 다섯 개(희귀도별 하나, 상점에 등장)를 모두 모으고 Malzahar로 피해 X.",
+     "ja": "神秘の楽器5つ（レアリティごとに1つ、ショップに出現）をすべて集め、MalzaharでXダメージを与える。",
+     "zh": "集齐全部五件神秘乐器（每个稀有度一件，会出现在商店里），并让 Malzahar 造成 X 点伤害。"
     }
    },
    "debut": [
@@ -2054,7 +2195,10 @@
    "true_damage": "B",
    "tomberait_si": {
     "fr": "Si réunir les cinq Instruments coûte plus de tempo qu'un niveau 9 classique : une chasse, pas une ligne.",
-    "en": "If collecting the five Instruments costs more tempo than a normal level 9: a chase, not a line."
+    "en": "If collecting the five Instruments costs more tempo than a normal level 9: a chase, not a line.",
+    "ko": "악기 다섯 개를 모으는 데 일반 9레벨보다 템포 손실이 크다면. 정규 덱이 아니라 추격전입니다.",
+    "ja": "楽器5つを集めるのが通常のレベル9よりテンポを失う場合。構成ではなく追いかけです。",
+    "zh": "如果集齐五件乐器比正常上 9 级更耗节奏：这是一场追逐，而不是一套阵容。"
    },
    "sources": [
     {
@@ -2071,7 +2215,10 @@
    "nom": "Choreographer · Rakan",
    "pourquoi": {
     "fr": "Rakan se débloque sur n'importe quelle série au niveau 8, gagnée ou perdue, et ses clones copient ses objets : tout objet sur lui compte double.",
-    "en": "Rakan unlocks on any streak at level 8, won or lost, and his clones copy his items: every item on him counts twice."
+    "en": "Rakan unlocks on any streak at level 8, won or lost, and his clones copy his items: every item on him counts twice.",
+    "ko": "Rakan은 8레벨에서 연승이든 연패든 연속 기록만 있으면 해금되고, 분신이 그의 아이템을 복사합니다. 그에게 준 아이템은 두 배로 쓰입니다.",
+    "ja": "Rakanはレベル8で連勝でも連敗でも連続記録があればアンロックされ、分身がアイテムをコピーします。Rakanに持たせたアイテムは2倍に働きます。",
+    "zh": "Rakan 在 8 级时无论连胜还是连败都能解锁，他的分身会复制他的装备：给他的每件装备都算两次。"
    },
    "niveau": 9,
    "porteurs": [
@@ -2156,7 +2303,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X victoires d'affilée, ou X défaites d'affilée, au niveau 8 ou plus.",
-     "en": "X wins in a row, or X losses in a row, at level 8 or higher."
+     "en": "X wins in a row, or X losses in a row, at level 8 or higher.",
+     "ko": "8레벨 이상에서 X연승 또는 X연패.",
+     "ja": "レベル8以上でX連勝、またはX連敗。",
+     "zh": "8 级或以上时 X 连胜，或 X 连败。"
     }
    },
    "debut": [
@@ -2180,7 +2330,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si Choreographer 5 force à jouer des unités faibles au niveau 9.",
-    "en": "If Choreographer 5 forces weak units onto a level 9 board."
+    "en": "If Choreographer 5 forces weak units onto a level 9 board.",
+    "ko": "Choreographer 5 때문에 9레벨 보드에 약한 유닛을 넣어야 한다면.",
+    "ja": "Choreographer 5のためにレベル9の盤面に弱いユニットを入れざるを得ない場合。",
+    "zh": "如果为了 Choreographer 5，9 级阵容里不得不塞进弱势英雄。"
    },
    "sources": [
     {
@@ -2197,7 +2350,10 @@
    "nom": "Pentakill 7 · Mordekaiser",
    "pourquoi": {
     "fr": "Pentakill a exactement sept membres, dont deux à débloquer en chemin, et le palier 7 fait apparaître la Vierge de fer.",
-    "en": "Pentakill has exactly seven members, two of them unlocked along the way, and the 7 tier summons the Iron Maiden."
+    "en": "Pentakill has exactly seven members, two of them unlocked along the way, and the 7 tier summons the Iron Maiden.",
+    "ko": "Pentakill은 정확히 일곱 명이고 그중 둘은 도중에 해금되며, 7단계에서 Iron Maiden이 소환됩니다.",
+    "ja": "Pentakillはちょうど7体で、そのうち2体は途中でアンロックされます。7段階でIron Maidenが召喚されます。",
+    "zh": "Pentakill 恰好七名成员，其中两名在途中解锁，7 档会召唤 Iron Maiden。"
    },
    "niveau": 8,
    "porteurs": [
@@ -2298,7 +2454,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "X champions Pentakill ou Swiftstriker différents. Mordekaiser ensuite : X niveaux d'étoiles uniques de Pentakill.",
-     "en": "X different Pentakill or Swiftstriker champions. Mordekaiser next: X unique Pentakill star levels."
+     "en": "X different Pentakill or Swiftstriker champions. Mordekaiser next: X unique Pentakill star levels.",
+     "ko": "서로 다른 Pentakill 또는 Swiftstriker 챔피언 X명. 다음은 Mordekaiser: 서로 다른 Pentakill 별 X개.",
+     "ja": "PentakillまたはSwiftstrikerの異なるチャンピオンをX体。次にMordekaiser：Pentakillのユニークな☆をX個。",
+     "zh": "X 个不同的 Pentakill 或 Swiftstriker 英雄。接着是 Mordekaiser：X 个不同的 Pentakill 星级。"
     }
    },
    "debut": [
@@ -2322,7 +2481,10 @@
    "true_damage": "A",
    "tomberait_si": {
     "fr": "Si un des sept manque à l'appel : sans emblème, Pentakill 7 n'a aucune marge.",
-    "en": "If one of the seven is missing: without an emblem, Pentakill 7 has no slack."
+    "en": "If one of the seven is missing: without an emblem, Pentakill 7 has no slack.",
+    "ko": "일곱 중 하나라도 빠진다면. 상징 없이는 Pentakill 7에 여유가 없습니다.",
+    "ja": "7体のうち1体でも欠ける場合。紋章なしではPentakill 7に余裕はありません。",
+    "zh": "如果七人中缺了一个：没有纹章的话，Pentakill 7 毫无容错。"
    },
    "sources": [
     {
@@ -2339,7 +2501,10 @@
    "nom": "Ionic Spark 10 · Gwen",
    "pourquoi": {
     "fr": "Dix membres pour dix au palier final : il faut tous les jouer, ou un emblème (spatule + cape). Trois d'entre eux se débloquent, et à 10 les fans montent sur scène.",
-    "en": "Ten members for the ten-unit final tier: you must field all of them, or an emblem (spatula + cloak). Three of them are unlockables, and at 10 the fans rush the stage."
+    "en": "Ten members for the ten-unit final tier: you must field all of them, or an emblem (spatula + cloak). Three of them are unlockables, and at 10 the fans rush the stage.",
+    "ko": "최종 10단계에 멤버는 딱 열 명입니다. 전원을 배치하거나 상징(뒤집개 + 음전자 망토)이 필요합니다. 그중 셋은 해금 대상이며, 10단계에서는 팬들이 무대로 몰려듭니다.",
+    "ja": "最終段階10に対してメンバーはちょうど10体。全員を出すか、紋章（ヘラ＋ネガトロンクローク）が必要です。うち3体はアンロック対象で、10段階ではファンがステージに押し寄せます。",
+    "zh": "最终 10 档正好十名成员：必须全部上场，或者用一个纹章（金铲铲 + 负极斗篷）。其中三人需要解锁，到 10 档时粉丝会冲上舞台。"
    },
    "niveau": 9,
    "porteurs": [
@@ -2424,7 +2589,10 @@
     "sur_le_chemin": true,
     "condition": {
      "fr": "Les fans d'Ionic Spark applaudissent X fois. Jinx (X objets sur un Ionic Spark) et Tibbers (Annie en X étoiles) en chemin.",
-     "en": "Ionic Spark fans cheer X times. Jinx (X items on an Ionic Spark) and Tibbers (Annie at X stars) along the way."
+     "en": "Ionic Spark fans cheer X times. Jinx (X items on an Ionic Spark) and Tibbers (Annie at X stars) along the way.",
+     "ko": "Ionic Spark 팬이 X번 환호. 도중에 Jinx(Ionic Spark 챔피언에게 아이템 X개)와 Tibbers(Annie X성).",
+     "ja": "Ionic SparkのファンがX回声援を送る。途中でJinx（Ionic SparkにアイテムX個）とTibbers（Annieを☆X）。",
+     "zh": "Ionic Spark 的粉丝欢呼 X 次。途中解锁 Jinx（让一名 Ionic Spark 携带 X 件装备）和 Tibbers（Annie 升到 X 星）。"
     }
    },
    "debut": [
@@ -2448,7 +2616,10 @@
    "true_damage": null,
    "tomberait_si": {
     "fr": "Si l'effet du palier 10 ne vaut pas de renoncer à tout autre trait.",
-    "en": "If the 10 tier's effect isn't worth giving up every other trait."
+    "en": "If the 10 tier's effect isn't worth giving up every other trait.",
+    "ko": "10단계 효과가 다른 모든 시너지를 포기할 만큼의 가치가 없다면.",
+    "ja": "10段階の効果が、他のシナジーをすべて捨てるほどの価値がない場合。",
+    "zh": "如果 10 档的效果不值得放弃其他所有羁绊。"
    },
    "sources": [
     {
