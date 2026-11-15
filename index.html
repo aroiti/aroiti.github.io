@@ -17,16 +17,31 @@
 <link rel="alternate" hreflang="fr" href="https://tacticaloracle.com/"><link rel="alternate" hreflang="en" href="https://tacticaloracle.com/en/"><link rel="alternate" hreflang="ko" href="https://tacticaloracle.com/ko/"><link rel="alternate" hreflang="ja" href="https://tacticaloracle.com/ja/"><link rel="alternate" hreflang="zh-Hans" href="https://tacticaloracle.com/zh/">
 <script>(function(){var c=null;try{c=localStorage.getItem('langue')}catch(e){}
 if(!c){var l=(navigator.language||'').toLowerCase().slice(0,2);c=['en','ko','ja','zh'].indexOf(l)>=0?l:(l=='fr'?'fr':'en')}
-if(c&&c!='fr'&&!location.hash)location.replace(c+'/')})()</script>
+if(c&&c!='fr')location.replace(c+'/'+location.hash)})()</script>
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 <header class="tete">
   <a class="marque" href="">Aroiti &amp; Oraculifex</a>
-  <nav class="onglets"><a class="o-livres" href="#livres">E-books</a><a class="o-oracle" href="#oracle" data-goatcounter-click="onglet-oracle-fr" data-goatcounter-title="Onglet Oracle"><svg class="cadenas" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="4.5" y="10" width="15" height="11" rx="2" fill="currentColor"/></svg>Accès à l’Oracle</a></nav>
+  <nav class="onglets"><a class="o-livres" href="#livres">E-books</a><a class="o-predictions" href="#predictions" data-goatcounter-click="onglet-predictions-fr" data-goatcounter-title="Onglet Prédictions">Prédictions Set 19</a><a class="o-oracle" href="#oracle" data-goatcounter-click="onglet-oracle-fr" data-goatcounter-title="Onglet Oracle"><svg class="cadenas" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="4.5" y="10" width="15" height="11" rx="2" fill="currentColor"/></svg>Accès à l’Oracle</a></nav>
   <nav class="langues" aria-label="Langues"><ul><li><a lang="fr" hreflang="fr" href="" data-langue="fr" aria-current="true">Français</a></li><li><a lang="en" hreflang="en" href="en/" data-langue="en">English</a></li><li><a lang="ko" hreflang="ko" href="ko/" data-langue="ko">한국어</a></li><li><a lang="ja" hreflang="ja" href="ja/" data-langue="ja">日本語</a></li><li><a lang="zh-Hans" hreflang="zh-Hans" href="zh/" data-langue="zh">简体中文</a></li></ul></nav>
 </header>
 <main>
+  <section id="predictions" data-donnees="predictions/set19.json">
+    <div class="pr-tete">
+      <h1>Prédictions du Set 19</h1>
+      <p class="sous">Prismatic Tour sort le 1ᵉʳ décembre. Les compos se préparent avant.</p>
+      <p class="pr-etat" role="status">Aucun champion publié pour l’instant. Les premières compos arrivent avec la révélation des champions.</p>
+      <p class="pr-maj"></p>
+    </div>
+    <ul class="rangee" aria-label="Les sept cases d’un set"><li class="case" data-case="A"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Compo trois étoiles · 1 coût</strong><span>à remplir</span></div></li><li class="case" data-case="B"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Compo trois étoiles · 2 coûts</strong><span>à remplir</span></div></li><li class="case" data-case="C"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Compo trois étoiles · 3 coûts</strong><span>à remplir</span></div></li><li class="case" data-case="D"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Niveau 8 · dégâts physiques</strong><span>à remplir</span></div></li><li class="case" data-case="E"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Niveau 8 · dégâts magiques</strong><span>à remplir</span></div></li><li class="case" data-case="F"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Niveau 9 · légendaires</strong><span>à remplir</span></div></li><li class="case" data-case="G"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><div><strong>Trait vertical</strong><span>à remplir</span></div></li></ul>
+    <div class="pr-texte">
+      <div><h2>Comment on les construit</h2><p>Chaque set reprend les mêmes cases : des compos trois étoiles à 1, 2 et 3 coûts, des niveaux 8 en dégâts physiques et en dégâts magiques, des légendaires au niveau 9, un grand trait vertical. Dès que les champions sont publiés, chacun est rangé dans sa case et on en tire des compos complètes : porteurs, ligne de front, objets, composants à ramasser, et le champion à débloquer en chemin.</p></div>
+      <div><h2>Ce que vaut une prédiction</h2><p>Une liste de champions dit ce qui est possible, pas ce qui est fort. Chaque compo affiche son niveau de confiance, ses sources et ce qui la ferait tomber. Au PBE, puis à la sortie, on dira lesquelles ont tenu.</p></div>
+    </div>
+    <div class="pr-compos"></div>
+    <a class="suivre" href="https://x.com/loracletft" rel="me noopener">Suivre Aroiti sur X</a>
+  </section>
   <section id="oracle">
     <button class="verrou" type="button" aria-label="Essayer d’ouvrir l’Oracle"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,25 50,0 100,25 100,75 50,100 0,75" vector-effect="non-scaling-stroke"/></svg><svg class="cadenas" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="4.5" y="10" width="15" height="11" rx="2" fill="currentColor"/></svg></button>
     <h1>L’Oracle est fermé pour l’instant</h1>
@@ -73,6 +88,7 @@ if(c&&c!='fr'&&!location.hash)location.replace(c+'/')})()</script>
   <p lang="en">Aroiti &amp; Oraculifex was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
 </footer>
 <script src="assets/site.js" defer></script>
+<script src="assets/predictions.js" defer></script>
 <script data-goatcounter="https://tacticaloracle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

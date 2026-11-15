@@ -1,0 +1,9 @@
+{
+ "schema": 1,
+ "set": 19,
+ "nom_set": "Prismatic Tour",
+ "etat": "attente",
+ "maj": "2026-11-15T11:00:00+01:00",
+ "connus": {"champions": 0},
+ "compos": []
+}
