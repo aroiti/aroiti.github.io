@@ -2,8 +2,2461 @@
  "schema": 1,
  "set": 19,
  "nom_set": "Prismatic Tour",
- "etat": "attente",
- "maj": "2026-11-15T11:00:00+01:00",
- "connus": {"champions": 0},
- "compos": []
+ "etat": "fuites",
+ "maj": "2026-11-15T13:41:09+01:00",
+ "connus": {
+  "champions": 93
+ },
+ "compos": [
+  {
+   "id": "a-hyperpop-ziggs",
+   "case": "A",
+   "confiance": "moyenne",
+   "nom": "Hyperpop · Ziggs",
+   "pourquoi": {
+    "fr": "Quatre des cinq Hyperpop sont à débloquer, et la première porte s'ouvre avec Ziggs en trois étoiles équipé : c'est la ligne des déblocages.",
+    "en": "Four of the five Hyperpop champions are unlockables, and the first door opens with an itemised 3-star Ziggs: this is the unlock line."
+   },
+   "niveau": 6,
+   "porteurs": [
+    {
+     "nom": "Ziggs",
+     "cout": 1
+    }
+   ],
+   "front": [
+    {
+     "nom": "Kobuko",
+     "cout": 1
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Hyperpop",
+     "palier": 4
+    },
+    {
+     "nom": "Arcanist",
+     "palier": 2
+    },
+    {
+     "nom": "Swiftstriker",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Ziggs",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Bâton de l'archange",
+       "en": "Archangel's Staff"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Kobuko",
+    "cout": 1,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Ziggs en X étoiles avec X objet. Puis, dans l'ordre : Tristana (éliminations avec Hyperpop actif), Lulu (sorts Hyperpop) et Teemo (Hype accumulée).",
+     "en": "Ziggs at X stars holding X item. Then, in order: Tristana (kills with Hyperpop active), Lulu (Hyperpop casts) and Teemo (stored Hype)."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Ziggs",
+     "cout": 1
+    },
+    {
+     "nom": "Zoe",
+     "cout": 1
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si Kobuko demande plus d'étoiles ou d'objets qu'un niveau 5–6 ne permet, ou si Hyperpop ne tient pas le début de partie avant ses déblocages.",
+    "en": "If Kobuko needs more stars or items than a level 5–6 board allows, or if Hyperpop can't hold the early game before its unlocks."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "a-kda-neeko",
+   "case": "A",
+   "confiance": "moyenne",
+   "nom": "K|DA · Neeko",
+   "pourquoi": {
+    "fr": "K|DA compte les niveaux d'étoiles, pas les champions : le trait est taillé pour les trois étoiles, et ses deux 1-coûts en sont la base.",
+    "en": "K|DA counts star levels, not champions: the trait is built for 3-stars, and its two 1-costs are the foundation."
+   },
+   "niveau": 6,
+   "porteurs": [
+    {
+     "nom": "Neeko",
+     "cout": 1
+    }
+   ],
+   "front": [
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2
+    },
+    {
+     "nom": "Kennen",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "K|DA",
+     "palier": 10
+    },
+    {
+     "nom": "Prodigy",
+     "palier": 2
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    },
+    {
+     "nom": "Encore",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Neeko",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Akali",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage. Evelynn (X champions K|DA ou Renegade) arrive en chemin.",
+     "en": "X unique K|DA star levels, without having unlocked True Damage Akali. Evelynn (X K|DA or Renegade champions) comes along the way."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Neeko",
+     "cout": 1
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si les paliers en étoiles montent trop vite pour qu'un plateau de niveau 6 atteigne 10.",
+    "en": "If the star-level breakpoints climb too fast for a level 6 board to reach 10."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "a-ionic-yunara",
+   "case": "A",
+   "confiance": "moyenne",
+   "nom": "Ionic Spark · Yunara",
+   "pourquoi": {
+    "fr": "Yunara tire un projectile de plus à chaque attaque : le profil d'une compo trois étoiles à vitesse d'attaque, dans le plus grand trait du set (dix membres).",
+    "en": "Yunara fires an extra orb on every attack: the profile of an attack-speed reroll, inside the set's biggest trait (ten members)."
+   },
+   "niveau": 6,
+   "porteurs": [
+    {
+     "nom": "Yunara",
+     "cout": 1
+    }
+   ],
+   "front": [
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Ionic Spark",
+     "palier": 5
+    },
+    {
+     "nom": "Swiftstriker",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Yunara",
+     "objets": [
+      {
+       "fr": "Lame enragée de Guinsoo",
+       "en": "Guinsoo's Rageblade"
+      },
+      {
+       "fr": "Fureur du kraken",
+       "en": "Kraken's Fury"
+      },
+      {
+       "fr": "Buff rouge",
+       "en": "Red Buff"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "cape",
+     "en": "cloak",
+     "ko": "음전자 망토",
+     "ja": "ネガトロンクローク",
+     "zh": "负极斗篷"
+    }
+   ],
+   "deblocage": {
+    "nom": "Jinx",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X objets sur un champion Ionic Spark ou Hitmaker : Yunara équipée le remplit.",
+     "en": "X items on an Ionic Spark or Hitmaker champion: an itemised Yunara fulfils it."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Yunara",
+     "cout": 1
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si les cadeaux d'Ionic Spark au palier 5 ne compensent pas le plafond bas d'une 1-coût.",
+    "en": "If Ionic Spark's gifts at 5 don't make up for a 1-cost's low ceiling."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "b-jazz-lucian",
+   "case": "B",
+   "confiance": "moyenne",
+   "nom": "Jazz · Lucian",
+   "pourquoi": {
+    "fr": "Jazz donne des PV et de l'amplification par trait actif : il pousse à jouer large, exactement ce que demande le déblocage de Smeech.",
+    "en": "Jazz grants Health and Damage Amp per active trait: it pushes you to play wide, exactly what Smeech's unlock asks for."
+   },
+   "niveau": 6,
+   "porteurs": [
+    {
+     "nom": "Lucian",
+     "cout": 2
+    }
+   ],
+   "front": [
+    {
+     "nom": "Galio",
+     "cout": 3
+    },
+    {
+     "nom": "Illaoi",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Jazz",
+     "palier": 3
+    },
+    {
+     "nom": "Hitmaker",
+     "palier": 2
+    },
+    {
+     "nom": "Encore",
+     "palier": 2
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Lucian",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      },
+      {
+       "fr": "Lance de Shojin",
+       "en": "Spear of Shojin"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Smeech",
+    "cout": 7,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X traits non uniques actifs ou plus. Smeech coûte 7 : à viser au niveau 8–9, une fois Lucian en trois étoiles.",
+     "en": "X or more non-unique traits active. Smeech costs 7: aim for it at level 8–9, once Lucian is 3-star."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Lucian",
+     "cout": 2
+    },
+    {
+     "nom": "Galio",
+     "cout": 3
+    },
+    {
+     "nom": "Illaoi",
+     "cout": 2
+    },
+    {
+     "nom": "Ezreal",
+     "cout": 2
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si Lucian n'a pas de quoi porter à 2 coûts, ou si Jazz n'atteint pas 3 sans Bard.",
+    "en": "If Lucian can't carry at 2 cost, or if Jazz can't reach 3 without Bard."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "b-heartsteel-ezreal",
+   "case": "B",
+   "confiance": "moyenne",
+   "nom": "Heartsteel · Ezreal",
+   "pourquoi": {
+    "fr": "Heartsteel améliore le sort de ses membres : Ezreal y gagne une explosion plus large tous les trois sorts, et la ligne débloque Alune puis Aphelios en chemin.",
+    "en": "Heartsteel upgrades its members' abilities: Ezreal's every third cast gets a wider blast, and the line unlocks Alune, then Aphelios, along the way."
+   },
+   "niveau": 6,
+   "porteurs": [
+    {
+     "nom": "Ezreal",
+     "cout": 2
+    }
+   ],
+   "front": [
+    {
+     "nom": "K'Sante",
+     "cout": 3
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Heartsteel",
+     "palier": 5
+    },
+    {
+     "nom": "Encore",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Ezreal",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Lance de Shojin",
+       "en": "Spear of Shojin"
+      },
+      {
+       "fr": "Tueur de géants",
+       "en": "Giant Slayer"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    }
+   ],
+   "deblocage": {
+    "nom": "Alune",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X champions Heartsteel ou Prodigy différents. Ensuite, Aphelios : Alune ou Yone en X étoiles.",
+     "en": "X different Heartsteel or Prodigy champions. Then Aphelios: Alune or Yone at X stars."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Ezreal",
+     "cout": 2
+    },
+    {
+     "nom": "Kayn",
+     "cout": 1
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si le choix de Bias ne passe pas sur Ezreal, ou si Heartsteel 5 coûte trop cher en 4-coûts.",
+    "en": "If Biases can't be put on Ezreal, or if Heartsteel 5 costs too many 4-costs."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "b-ionic-lux",
+   "case": "B",
+   "confiance": "moyenne",
+   "nom": "Ionic Spark · Lux",
+   "pourquoi": {
+    "fr": "Lux regagne du mana à chaque élimination : un sort qui s'enchaîne en trois étoiles, avec Annie et Tibbers comme ligne de front du même trait.",
+    "en": "Lux regains Mana on each kill: a spell that chains at 3 stars, with Annie and Tibbers as a same-trait frontline."
+   },
+   "niveau": 6,
+   "porteurs": [
+    {
+     "nom": "Lux",
+     "cout": 2
+    }
+   ],
+   "front": [
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Tibbers",
+     "cout": 3
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Ionic Spark",
+     "palier": 5
+    },
+    {
+     "nom": "Prodigy",
+     "palier": 2
+    },
+    {
+     "nom": "Arcanist",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Lux",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Bâton de l'archange",
+       "en": "Archangel's Staff"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Tibbers",
+    "cout": 3,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Annie en X étoiles avec X objet : Annie fait déjà partie du plateau.",
+     "en": "Annie at X stars holding X item: Annie is already on the board."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Lux",
+     "cout": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Zoe",
+     "cout": 1
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si Lux et Yunara se disputent les mêmes Ionic Spark : deux compos trois étoiles du même trait se contestent.",
+    "en": "If Lux and Yunara fight over the same Ionic Spark units: two rerolls of one trait contest each other."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "c-kda-kaisa",
+   "case": "C",
+   "confiance": "moyenne",
+   "nom": "K|DA · Kai'Sa",
+   "pourquoi": {
+    "fr": "En trois étoiles, Kai'Sa vaut à elle seule trois niveaux d'étoiles pour K|DA : la compo trois étoiles et le trait vertical se nourrissent l'un l'autre.",
+    "en": "At 3 stars, Kai'Sa alone is worth three K|DA star levels: the reroll and the vertical trait feed each other."
+   },
+   "niveau": 7,
+   "porteurs": [
+    {
+     "nom": "Kai'Sa",
+     "cout": 3
+    }
+   ],
+   "front": [
+    {
+     "nom": "Leona",
+     "cout": 4
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "K|DA",
+     "palier": 13
+    },
+    {
+     "nom": "Trickshot",
+     "palier": 2
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Kai'Sa",
+     "objets": [
+      {
+       "fr": "Lame enragée de Guinsoo",
+       "en": "Guinsoo's Rageblade"
+      },
+      {
+       "fr": "Fureur du kraken",
+       "en": "Kraken's Fury"
+      },
+      {
+       "fr": "Buff rouge",
+       "en": "Red Buff"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "cape",
+     "en": "cloak",
+     "ko": "음전자 망토",
+     "ja": "ネガトロンクローク",
+     "zh": "负极斗篷"
+    }
+   ],
+   "deblocage": {
+    "nom": "Akali",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage.",
+     "en": "X unique K|DA star levels, without having unlocked True Damage Akali."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Kai'Sa",
+     "cout": 3
+    },
+    {
+     "nom": "Neeko",
+     "cout": 1
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Gnar",
+     "cout": 1
+    }
+   ],
+   "true_damage": "B",
+   "tomberait_si": {
+    "fr": "Si K|DA est contesté par les compos Neeko et Ahri du même lobby : trois lignes pour un seul trait.",
+    "en": "If K|DA gets contested by Neeko and Ahri players in the same lobby: three lines for one trait."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "c-truedamage-senna",
+   "case": "C",
+   "confiance": "moyenne",
+   "nom": "True Damage · Senna",
+   "pourquoi": {
+    "fr": "Le trait du disque : la face B paie les défaites, ce qui finance la relance au niveau 7 ; True Damage 5 ajoute des dégâts bruts quand Senna est trois étoiles.",
+    "en": "The record trait: side B pays for losses, which funds the level 7 roll-down; True Damage 5 adds true damage once Senna is 3-star."
+   },
+   "niveau": 7,
+   "porteurs": [
+    {
+     "nom": "Senna",
+     "cout": 3
+    }
+   ],
+   "front": [
+    {
+     "nom": "Ekko",
+     "cout": 3
+    },
+    {
+     "nom": "Kennen",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "True Damage",
+     "palier": 5
+    },
+    {
+     "nom": "Hitmaker",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Senna",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      },
+      {
+       "fr": "Lance de Shojin",
+       "en": "Spear of Shojin"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Yasuo",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X niveaux d'étoiles de champions True Damage et Slayer : Senna, Qiyana et Ekko améliorés le remplissent.",
+     "en": "X star levels of True Damage and Slayer champions: upgraded Senna, Qiyana and Ekko fulfil it."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Senna",
+     "cout": 3
+    },
+    {
+     "nom": "Qiyana",
+     "cout": 2
+    },
+    {
+     "nom": "Kennen",
+     "cout": 1
+    },
+    {
+     "nom": "Ekko",
+     "cout": 3
+    }
+   ],
+   "true_damage": "B",
+   "tomberait_si": {
+    "fr": "Si le Bling de la face B ne rapporte pas assez pour compenser les PV perdus.",
+    "en": "If side B's Bling doesn't pay enough to make up for the Health lost."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "c-pentakill-viego",
+   "case": "C",
+   "confiance": "moyenne",
+   "nom": "Pentakill · Viego",
+   "pourquoi": {
+    "fr": "Viego garde une épée de plus à chaque élimination, et Pentakill exécute les ennemis bas en PV : un combattant qui grossit pendant le combat.",
+    "en": "Viego keeps an extra sword with each takedown, and Pentakill executes low-Health enemies: a fighter that snowballs during combat."
+   },
+   "niveau": 7,
+   "porteurs": [
+    {
+     "nom": "Viego",
+     "cout": 3
+    }
+   ],
+   "front": [
+    {
+     "nom": "Yorick",
+     "cout": 4
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Pentakill",
+     "palier": 5
+    },
+    {
+     "nom": "Slayer",
+     "palier": 2
+    },
+    {
+     "nom": "Choreographer",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Viego",
+     "objets": [
+      {
+       "fr": "Soif-de-sang",
+       "en": "Bloodthirster"
+      },
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Main de la justice",
+       "en": "Hand of Justice"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "cape",
+     "en": "cloak",
+     "ko": "음전자 망토",
+     "ja": "ネガトロンクローク",
+     "zh": "负极斗篷"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Mordekaiser",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X niveaux d'étoiles uniques de Pentakill : Viego trois étoiles en apporte trois.",
+     "en": "X unique Pentakill star levels: a 3-star Viego brings three."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Viego",
+     "cout": 3
+    },
+    {
+     "nom": "Gnar",
+     "cout": 1
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1
+    },
+    {
+     "nom": "Karthus",
+     "cout": 2
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si Viego tombe avant d'avoir ses premières éliminations : un combattant sans soin de départ.",
+    "en": "If Viego dies before his first takedowns: a fighter with no early sustain."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "d-gufeng-xayah",
+   "case": "D",
+   "confiance": "moyenne",
+   "nom": "Gu Feng · Xayah",
+   "pourquoi": {
+    "fr": "Trois des quatre Gu Feng se débloquent avec Xayah sur le plateau : elle est la clé du trait, et Gu Feng 4 ouvre un chemin jusqu'au niveau 11.",
+    "en": "Three of the four Gu Feng champions unlock with Xayah on the board: she is the trait's key, and Gu Feng 4 opens a path to level 11."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Xayah",
+     "cout": 4
+    },
+    {
+     "nom": "Lee Sin",
+     "cout": 5
+    }
+   ],
+   "front": [
+    {
+     "nom": "Wukong",
+     "cout": 4
+    },
+    {
+     "nom": "Shyvana",
+     "cout": 4
+    },
+    {
+     "nom": "Thresh",
+     "cout": 4
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Gu Feng",
+     "palier": 4
+    },
+    {
+     "nom": "Hitmaker",
+     "palier": 2
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Xayah",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      },
+      {
+       "fr": "Lame enragée de Guinsoo",
+       "en": "Guinsoo's Rageblade"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    }
+   ],
+   "deblocage": {
+    "nom": "Wukong",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Vos alliés infligent X dégâts avec Xayah sur le plateau. Puis Janna (X or d'intérêts avec Xayah) et Lee Sin (X dégâts aux joueurs avec Xayah).",
+     "en": "Allies deal X damage while Xayah is fielded. Then Janna (X interest with Xayah) and Lee Sin (X player damage with Xayah)."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Senna",
+     "cout": 3
+    },
+    {
+     "nom": "Lucian",
+     "cout": 2
+    },
+    {
+     "nom": "Galio",
+     "cout": 3
+    },
+    {
+     "nom": "Illaoi",
+     "cout": 2
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si les trois déblocages arrivent trop tard pour qu'il reste des PV à convertir en niveau 11.",
+    "en": "If the three unlocks come too late to have Health left to turn into level 11."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "d-rock-vayne",
+   "case": "D",
+   "confiance": "moyenne",
+   "nom": "Rock · Vayne",
+   "pourquoi": {
+    "fr": "Vayne se débloque en jouant Rock, et l'Idole infernale grandit avec les étoiles de vos Rock : un début Rock mène à elle sans détour.",
+    "en": "Vayne unlocks by playing Rock, and the Infernal Idol grows with your Rock champions' stars: a Rock opener leads to her directly."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Vayne",
+     "cout": 4
+    },
+    {
+     "nom": "Locke",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Swain",
+     "cout": 3
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Rock",
+     "palier": 5
+    },
+    {
+     "nom": "Trickshot",
+     "palier": 2
+    },
+    {
+     "nom": "Swiftstriker",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Vayne",
+     "objets": [
+      {
+       "fr": "Lame enragée de Guinsoo",
+       "en": "Guinsoo's Rageblade"
+      },
+      {
+       "fr": "Tueur de géants",
+       "en": "Giant Slayer"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Vayne",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Jouer Rock pendant X combats. Pyke (finir un combat avec X or) en capstone.",
+     "en": "Field Rock for X combats. Pyke (end combat with X gold) as the capstone."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Camille",
+     "cout": 2
+    },
+    {
+     "nom": "Varus",
+     "cout": 1
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1
+    },
+    {
+     "nom": "Swain",
+     "cout": 3
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si l'Idole ne suit pas sans Rock 7, ou si Vayne n'est pas en boutique au moment du déblocage.",
+    "en": "If the Idol falls off without Rock 7, or if Vayne isn't in shop when she unlocks."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "d-classical-jhin",
+   "case": "D",
+   "confiance": "moyenne",
+   "nom": "Classical · Jhin",
+   "pourquoi": {
+    "fr": "Jhin convertit la vitesse d'attaque en dégâts et Classical captive les ennemis : ses violons immobilisent pendant qu'il frappe.",
+    "en": "Jhin converts Attack Speed into Attack Damage and Classical captivates enemies: his violins lock targets while he hits."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Jhin",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Thresh",
+     "cout": 4
+    },
+    {
+     "nom": "Nasus",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Classical",
+     "palier": 4
+    },
+    {
+     "nom": "Encore",
+     "palier": 2
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Jhin",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Tueur de géants",
+       "en": "Giant Slayer"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    }
+   ],
+   "deblocage": {
+    "nom": "Thresh",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Les ennemis passent X secondes captivés par Classical : la ligne le fait dès Classical 2.",
+     "en": "Enemies spend X seconds Captivated by Classical: the line does it from Classical 2."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Katarina",
+     "cout": 1
+    },
+    {
+     "nom": "Nasus",
+     "cout": 2
+    },
+    {
+     "nom": "Renata Glasc",
+     "cout": 2
+    },
+    {
+     "nom": "Samira",
+     "cout": 2
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si Classical 4 ne protège pas assez une ligne de front faite de 2-coûts.",
+    "en": "If Classical 4 can't protect a frontline built from 2-costs."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "e-kda-ahri",
+   "case": "E",
+   "confiance": "moyenne",
+   "nom": "K|DA · Ahri",
+   "pourquoi": {
+    "fr": "La version niveau 8 de K|DA : on garde les 1–3 coûts en deux étoiles pour les paliers en étoiles, et Ahri porte.",
+    "en": "K|DA's level 8 version: keep the 1–3 costs at 2 stars for the star-level breakpoints, and Ahri carries."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Ahri",
+     "cout": 4
+    },
+    {
+     "nom": "Akali",
+     "cout": 5
+    }
+   ],
+   "front": [
+    {
+     "nom": "Leona",
+     "cout": 4
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "K|DA",
+     "palier": 13
+    },
+    {
+     "nom": "Choreographer",
+     "palier": 2
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Ahri",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Akali",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage.",
+     "en": "X unique K|DA star levels, without having unlocked True Damage Akali."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Neeko",
+     "cout": 1
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2
+    },
+    {
+     "nom": "Kai'Sa",
+     "cout": 3
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si K|DA 13 demande trop de deux étoiles pour un niveau 8.",
+    "en": "If K|DA 13 needs too many 2-stars for level 8."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "e-arcanist-mel",
+   "case": "E",
+   "confiance": "moyenne",
+   "nom": "Arcanist · Mel",
+   "pourquoi": {
+    "fr": "Mel et Rell sont liés par R&B : Rell encaisse une part des dégâts de Mel et se soigne avec ses sorts. Arcanist donne de la puissance à toute l'équipe.",
+    "en": "Mel and Rell are linked by R&B: Rell absorbs part of Mel's damage taken and heals from her spells. Arcanist gives the whole team Ability Power."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Mel",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Rell",
+     "cout": 5
+    },
+    {
+     "nom": "Swain",
+     "cout": 3
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Arcanist",
+     "palier": 4
+    },
+    {
+     "nom": "R&B",
+     "palier": 2
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Mel",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Bâton du vide",
+       "en": "Void Staff"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    }
+   ],
+   "deblocage": {
+    "nom": "Vladimir",
+    "cout": 5,
+    "sur_le_chemin": false,
+    "condition": {
+     "fr": "N'avoir que X champion dans les deux premières rangées : un placement à construire exprès.",
+     "en": "Only X champion in the two front rows: a placement you have to build on purpose."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Zoe",
+     "cout": 1
+    },
+    {
+     "nom": "Ziggs",
+     "cout": 1
+    },
+    {
+     "nom": "Karthus",
+     "cout": 2
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si le lien R&B ne vaut pas un 5-coût dans une compo de niveau 8.",
+    "en": "If the R&B link isn't worth a 5-cost in a level 8 comp."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "e-ionic-aurora",
+   "case": "E",
+   "confiance": "moyenne",
+   "nom": "Ionic Spark · Aurora",
+   "pourquoi": {
+    "fr": "Aurora frappe les deux ennemis les plus résistants : la porteuse qui manquait à Ionic Spark, dont le palier 7 rapporte or et objets.",
+    "en": "Aurora hits the two highest-Health enemies: the carry Ionic Spark needs, and its 7 tier pays gold and consumables."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Aurora",
+     "cout": 4
+    },
+    {
+     "nom": "Gwen",
+     "cout": 5
+    }
+   ],
+   "front": [
+    {
+     "nom": "Shyvana",
+     "cout": 4
+    },
+    {
+     "nom": "Tibbers",
+     "cout": 3
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Ionic Spark",
+     "palier": 7
+    },
+    {
+     "nom": "Renegade",
+     "palier": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Aurora",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Bâton du vide",
+       "en": "Void Staff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Gwen",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Les fans d'Ionic Spark applaudissent X fois : le trait le fait tout seul.",
+     "en": "Ionic Spark fans cheer X times: the trait does it by itself."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Lux",
+     "cout": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Yunara",
+     "cout": 1
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si Ionic Spark 7 est trop contesté par les deux compos trois étoiles du même trait.",
+    "en": "If Ionic Spark 7 is too contested by the two rerolls of the same trait."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "f-composer-baron",
+   "case": "F",
+   "confiance": "speculative",
+   "nom": "Composer · Baron Nashor",
+   "pourquoi": {
+    "fr": "La plus grande chasse du set : cinq Instruments mystiques à réunir en boutique, puis Malzahar doit écrire son chef-d'œuvre. Au bout, Baron Nashor, un 7-coût sur deux cases.",
+    "en": "The set's biggest chase: five Mystical Instruments to collect from the shop, then Malzahar must write his masterpiece. At the end, Baron Nashor, a 7-cost taking two slots."
+   },
+   "niveau": 9,
+   "porteurs": [
+    {
+     "nom": "Malzahar",
+     "cout": 3
+    },
+    {
+     "nom": "Baron Nashor",
+     "cout": 7
+    }
+   ],
+   "front": [
+    {
+     "nom": "Ekko",
+     "cout": 3
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3
+    },
+    {
+     "nom": "Braum",
+     "cout": 3
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Prodigy",
+     "palier": 3
+    },
+    {
+     "nom": "Composer",
+     "palier": 1
+    },
+    {
+     "nom": "One Monster Band",
+     "palier": 1
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Malzahar",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Baron Nashor",
+    "cout": 7,
+    "sur_le_chemin": false,
+    "condition": {
+     "fr": "Réunir les cinq Instruments mystiques (un par rareté, ils apparaissent en boutique) et que Malzahar inflige X dégâts.",
+     "en": "Collect all five Mystical Instruments (one per rarity, they appear in the shop) and have Malzahar deal X damage."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Neeko",
+     "cout": 1
+    },
+    {
+     "nom": "Lux",
+     "cout": 2
+    },
+    {
+     "nom": "Ekko",
+     "cout": 3
+    },
+    {
+     "nom": "Malzahar",
+     "cout": 3
+    }
+   ],
+   "true_damage": "B",
+   "tomberait_si": {
+    "fr": "Si réunir les cinq Instruments coûte plus de tempo qu'un niveau 9 classique : une chasse, pas une ligne.",
+    "en": "If collecting the five Instruments costs more tempo than a normal level 9: a chase, not a line."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "f-choreo-rakan",
+   "case": "F",
+   "confiance": "moyenne",
+   "nom": "Choreographer · Rakan",
+   "pourquoi": {
+    "fr": "Rakan se débloque sur n'importe quelle série au niveau 8, gagnée ou perdue, et ses clones copient ses objets : tout objet sur lui compte double.",
+    "en": "Rakan unlocks on any streak at level 8, won or lost, and his clones copy his items: every item on him counts twice."
+   },
+   "niveau": 9,
+   "porteurs": [
+    {
+     "nom": "Ahri",
+     "cout": 4
+    },
+    {
+     "nom": "Nidalee",
+     "cout": 5
+    },
+    {
+     "nom": "Rakan",
+     "cout": 7
+    }
+   ],
+   "front": [
+    {
+     "nom": "Garen",
+     "cout": 4
+    },
+    {
+     "nom": "Syndra",
+     "cout": 3
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Choreographer",
+     "palier": 5
+    },
+    {
+     "nom": "K|DA",
+     "palier": 3
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Rakan",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Bâton de l'archange",
+       "en": "Archangel's Staff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Rakan",
+    "cout": 7,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X victoires d'affilée, ou X défaites d'affilée, au niveau 8 ou plus.",
+     "en": "X wins in a row, or X losses in a row, at level 8 or higher."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Renata Glasc",
+     "cout": 2
+    },
+    {
+     "nom": "Lulu",
+     "cout": 2
+    },
+    {
+     "nom": "Viego",
+     "cout": 3
+    },
+    {
+     "nom": "Syndra",
+     "cout": 3
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si Choreographer 5 force à jouer des unités faibles au niveau 9.",
+    "en": "If Choreographer 5 forces weak units onto a level 9 board."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "g-pentakill-7",
+   "case": "G",
+   "confiance": "moyenne",
+   "nom": "Pentakill 7 · Mordekaiser",
+   "pourquoi": {
+    "fr": "Pentakill a exactement sept membres, dont deux à débloquer en chemin, et le palier 7 fait apparaître la Vierge de fer.",
+    "en": "Pentakill has exactly seven members, two of them unlocked along the way, and the 7 tier summons the Iron Maiden."
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Mordekaiser",
+     "cout": 5
+    },
+    {
+     "nom": "Kayle",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Yorick",
+     "cout": 4
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1
+    },
+    {
+     "nom": "Viego",
+     "cout": 3
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Pentakill",
+     "palier": 7
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Kayle",
+     "objets": [
+      {
+       "fr": "Lame enragée de Guinsoo",
+       "en": "Guinsoo's Rageblade"
+      },
+      {
+       "fr": "Dent de Nashor",
+       "en": "Nashor's Tooth"
+      },
+      {
+       "fr": "Fureur du kraken",
+       "en": "Kraken's Fury"
+      }
+     ]
+    },
+    {
+     "pour": "Mordekaiser",
+     "objets": [
+      {
+       "fr": "Soif-de-sang",
+       "en": "Bloodthirster"
+      },
+      {
+       "fr": "Détermination du titan",
+       "en": "Titan's Resolve"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "cape",
+     "en": "cloak",
+     "ko": "음전자 망토",
+     "ja": "ネガトロンクローク",
+     "zh": "负极斗篷"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "plastron",
+     "en": "chain vest",
+     "ko": "쇠사슬 조끼",
+     "ja": "チェインベスト",
+     "zh": "锁子甲"
+    }
+   ],
+   "deblocage": {
+    "nom": "Kayle",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X champions Pentakill ou Swiftstriker différents. Mordekaiser ensuite : X niveaux d'étoiles uniques de Pentakill.",
+     "en": "X different Pentakill or Swiftstriker champions. Mordekaiser next: X unique Pentakill star levels."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Gnar",
+     "cout": 1
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1
+    },
+    {
+     "nom": "Karthus",
+     "cout": 2
+    },
+    {
+     "nom": "Viego",
+     "cout": 3
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si un des sept manque à l'appel : sans emblème, Pentakill 7 n'a aucune marge.",
+    "en": "If one of the seven is missing: without an emblem, Pentakill 7 has no slack."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "g-ionic-10",
+   "case": "G",
+   "confiance": "speculative",
+   "nom": "Ionic Spark 10 · Gwen",
+   "pourquoi": {
+    "fr": "Dix membres pour dix au palier final : il faut tous les jouer, ou un emblème (spatule + cape). Trois d'entre eux se débloquent, et à 10 les fans montent sur scène.",
+    "en": "Ten members for the ten-unit final tier: you must field all of them, or an emblem (spatula + cloak). Three of them are unlockables, and at 10 the fans rush the stage."
+   },
+   "niveau": 9,
+   "porteurs": [
+    {
+     "nom": "Gwen",
+     "cout": 5
+    },
+    {
+     "nom": "Jinx",
+     "cout": 4
+    },
+    {
+     "nom": "Aurora",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Shyvana",
+     "cout": 4
+    },
+    {
+     "nom": "Tibbers",
+     "cout": 3
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Ionic Spark",
+     "palier": 10
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Gwen",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Main de la justice",
+       "en": "Hand of Justice"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Gwen",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Les fans d'Ionic Spark applaudissent X fois. Jinx (X objets sur un Ionic Spark) et Tibbers (Annie en X étoiles) en chemin.",
+     "en": "Ionic Spark fans cheer X times. Jinx (X items on an Ionic Spark) and Tibbers (Annie at X stars) along the way."
+    }
+   },
+   "debut": [
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Yunara",
+     "cout": 1
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si l'effet du palier 10 ne vaut pas de renoncer à tout autre trait.",
+    "en": "If the 10 tier's effect isn't worth giving up every other trait."
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  }
+ ]
 }
