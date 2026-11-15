@@ -12,9 +12,13 @@ japonaises et chinoises : la page retombe alors sur l'anglais).
 Les règles disent ce qu'est une prédiction publiable :
 - une compo qui n'est pas « spéculative » cite au moins une source ;
 - chaque texte existe au moins en français et en anglais ;
-- aucun identifiant de joueur ni clé d'API ne sort.
+- aucun identifiant de joueur ni clé d'API ne sort ;
+- (depuis le builder, 15/11) chaque champion cité existe dans la liste
+  predictions/set<N>-unites.json, au même coût ; le plateau d'une compo tient
+  dans son niveau ; et chaque trait annoncé est atteint par ce plateau, compté
+  comme le builder le compte.
 """
-import json, re, sys
+import json, os, re, sys
 from datetime import datetime
 
 ETATS = {"attente", "fuites", "pbe", "termine"}
@@ -62,13 +66,68 @@ def unite(u, ou):
         err(f"{ou}.cout : {c!r} n'est pas un coût")
 
 
+def interdits(brut, nom):
+    for interdit in ("puuid", "RGAPI-"):
+        if interdit.lower() in brut.lower():
+            err(f"{nom} contient « {interdit} » : rien d'identifiant ne se publie")
+
+
+def charger_liste(chemin, setn):
+    """La liste des champions du builder, vérifiée. None si elle n'existe pas."""
+    p = os.path.join(os.path.dirname(chemin) or ".", f"set{setn}-unites.json")
+    if not os.path.exists(p):
+        avert(f"{p} absent : les champions des compos ne sont pas vérifiés")
+        return None
+    brut = open(p, encoding="utf-8").read()
+    interdits(brut, p)
+    r = json.loads(brut)
+    if r.get("schema") != 1 or r.get("set") != setn:
+        err(f"{p} : schema 1 et set {setn} attendus")
+    traits = r.get("traits") or {}
+    for x, t in traits.items():
+        ps = t.get("paliers")
+        if not ps or ps != sorted(ps) or not all(isinstance(v, int) and v >= 1 for v in ps):
+            err(f"{p} : paliers de {x} invalides : {ps!r}")
+    ids, noms = set(), {}
+    for u in r.get("unites") or []:
+        if not re.fullmatch(r"[a-z0-9]+", str(u.get("id"))) or u["id"] in ids:
+            err(f"{p} : id {u.get('id')!r} invalide ou en double")
+        ids.add(u.get("id"))
+        if not (isinstance(u.get("cout"), int) and 1 <= u["cout"] <= 10):
+            err(f"{p} : coût de {u.get('nom')} invalide")
+        for x in u.get("traits") or []:
+            if x not in traits:
+                err(f"{p} : {u.get('nom')} a un trait inconnu : {x}")
+        if u.get("deblocage") is not None:
+            texte(u["deblocage"], f"{p} : déblocage de {u.get('nom')}")
+        noms[u.get("nom")] = u
+    return {"noms": noms, "traits": traits}
+
+
+def compter(plateau, liste):
+    """Le comptage du builder : une fois par champion et par trait, les
+    étoiles pour un trait qui compte les étoiles, l'emblème en plus."""
+    n, vus = {}, set()
+    for p in plateau:
+        nom = p.get("nom")
+        if nom in vus or nom not in liste["noms"]:
+            continue
+        vus.add(nom)
+        tr = list(liste["noms"][nom]["traits"])
+        if p.get("embleme") and p["embleme"] not in tr:
+            tr.append(p["embleme"])
+        for x in tr:
+            t = liste["traits"].get(x) or {}
+            n[x] = n.get(x, 0) + (p.get("etoiles", 1) if t.get("compte") == "etoiles" else 1)
+    return n
+
+
 def main():
     chemin = sys.argv[1] if len(sys.argv) > 1 else "predictions/set19.json"
     brut = open(chemin, encoding="utf-8").read()
-    for interdit in ("puuid", "RGAPI-"):
-        if interdit.lower() in brut.lower():
-            err(f"le fichier contient « {interdit} » : rien d'identifiant ne se publie")
+    interdits(brut, "le fichier")
     d = json.loads(brut)
+    liste = charger_liste(chemin, d.get("set")) if isinstance(d.get("set"), int) else None
 
     if d.get("schema") != 1:
         err(f"schema : {d.get('schema')!r}, attendu 1")
@@ -130,6 +189,39 @@ def main():
                    if re.match(r"^https?://", str(s.get("url") or ""))]
         if len(sources) != len(c.get("sources") or []):
             err(f"{ou}.sources : une source sans adresse http(s)")
+        if liste:
+            cites = [(k, u) for k in ("porteurs", "front", "debut", "plateau") for u in (c.get(k) or [])]
+            if db:
+                cites.append(("deblocage", db))
+            for k, u in cites:
+                nom = u.get("nom") if isinstance(u, dict) else None
+                connu = liste["noms"].get(nom) if isinstance(nom, str) else None
+                if not connu:
+                    err(f"{ou}.{k} : « {nom} » n'est pas dans la liste des champions")
+                elif u.get("cout") is not None and u["cout"] != connu["cout"]:
+                    err(f"{ou}.{k} : {nom} coûte {connu['cout']}, pas {u['cout']}")
+            pl = c.get("plateau") or []
+            if pl:
+                noms = [u.get("nom") for u in pl]
+                if len(set(noms)) != len(noms):
+                    err(f"{ou}.plateau : un champion en double")
+                for k in ("porteurs", "front"):
+                    for u in c.get(k) or []:
+                        if u.get("nom") not in noms:
+                            err(f"{ou}.{k} : {u.get('nom')} n'est pas sur le plateau")
+                cases = sum(liste["noms"].get(x, {}).get("cases", 1) for x in noms)
+                if isinstance(c.get("niveau"), int) and cases > c["niveau"]:
+                    err(f"{ou}.plateau : {cases} cases pour un niveau {c['niveau']}")
+                n = compter(pl, liste)
+                for t in c.get("traits") or []:
+                    x, p = t.get("nom"), t.get("palier")
+                    ps = (liste["traits"].get(x) or {}).get("paliers") or []
+                    if p is not None and p not in ps:
+                        err(f"{ou}.traits : {x} {p} n'est pas un palier de {x} ({ps})")
+                    elif p is not None and n.get(x, 0) < p:
+                        err(f"{ou}.traits : annonce {x} {p}, le plateau en donne {n.get(x, 0)}")
+            elif c.get("traits"):
+                avert(f"{ou} : des traits annoncés sans plateau pour les vérifier")
         if c.get("confiance") != "speculative" and not sources:
             err(f"{ou} : confiance « {c.get('confiance')} » sans aucune source — "
                 "une compo non spéculative cite d'où viennent ses champions")

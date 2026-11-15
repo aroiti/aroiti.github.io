@@ -1,0 +1,1577 @@
+{
+ "schema": 1,
+ "set": 19,
+ "maj": "2026-11-15T14:02:07+01:00",
+ "source": {
+  "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+  "url": "https://www.metatft.com/new-set"
+ },
+ "note": {
+  "fr": "Rôles déduits des descriptions des sorts. Les chiffres arrivent avec le PBE.",
+  "en": "Roles inferred from ability descriptions. Numbers arrive with the PBE."
+ },
+ "unites": [
+  {
+   "id": "elise",
+   "nom": "Elise",
+   "cout": 1,
+   "traits": [
+    "Ionic Spark",
+    "Frontman"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "gnar",
+   "nom": "Gnar",
+   "cout": 1,
+   "traits": [
+    "Pentakill",
+    "Trickshot"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "katarina",
+   "nom": "Katarina",
+   "cout": 1,
+   "traits": [
+    "Classical",
+    "Slayer"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "kayn",
+   "nom": "Kayn",
+   "cout": 1,
+   "traits": [
+    "Heartsteel",
+    "Slayer"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "kennen",
+   "nom": "Kennen",
+   "cout": 1,
+   "traits": [
+    "True Damage",
+    "Bodyguard"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "kobuko",
+   "nom": "Kobuko",
+   "cout": 1,
+   "traits": [
+    "Hyperpop",
+    "Frontman"
+   ],
+   "role": "tank",
+   "deblocage": {
+    "fr": "Ziggs en X étoiles avec X objet",
+    "en": "Ziggs at X stars holding X item",
+    "ko": "Ziggs X성에 아이템 X 장착",
+    "ja": "Ziggsを☆Xにしてアイテムを持たせる",
+    "zh": "Ziggs 升到 X 星并携带 X 件装备"
+   }
+  },
+  {
+   "id": "lillia",
+   "nom": "Lillia",
+   "cout": 1,
+   "traits": [
+    "K|DA",
+    "Bodyguard"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "neeko",
+   "nom": "Neeko",
+   "cout": 1,
+   "traits": [
+    "K|DA",
+    "Encore",
+    "Prodigy"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "olaf",
+   "nom": "Olaf",
+   "cout": 1,
+   "traits": [
+    "Pentakill",
+    "Rock",
+    "Juggernaut"
+   ],
+   "role": "combattant"
+  },
+  {
+   "id": "sett",
+   "nom": "Sett",
+   "cout": 1,
+   "traits": [
+    "Heartsteel",
+    "Frontman",
+    "Collab"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "taric",
+   "nom": "Taric",
+   "cout": 1,
+   "traits": [
+    "Beach Pop",
+    "Juggernaut"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "varus",
+   "nom": "Varus",
+   "cout": 1,
+   "traits": [
+    "Rock",
+    "Encore"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "yunara",
+   "nom": "Yunara",
+   "cout": 1,
+   "traits": [
+    "Ionic Spark",
+    "Swiftstriker"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "ziggs",
+   "nom": "Ziggs",
+   "cout": 1,
+   "traits": [
+    "Hyperpop",
+    "Arcanist",
+    "Swiftstriker"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "zoe",
+   "nom": "Zoe",
+   "cout": 1,
+   "traits": [
+    "Beach Pop",
+    "Arcanist"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "annie",
+   "nom": "Annie",
+   "cout": 2,
+   "traits": [
+    "Ionic Spark",
+    "Arcanist",
+    "Juggernaut"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "ashe",
+   "nom": "Ashe",
+   "cout": 2,
+   "traits": [
+    "Beach Pop",
+    "Swiftstriker"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "un champion Beach Pop avec X objets",
+    "en": "a Beach Pop champion holding X items",
+    "ko": "Beach Pop 챔피언 하나에게 아이템 X개",
+    "ja": "Beach PopのチャンピオンにアイテムX個",
+    "zh": "让一名 Beach Pop 英雄携带 X 件装备"
+   }
+  },
+  {
+   "id": "camille",
+   "nom": "Camille",
+   "cout": 2,
+   "traits": [
+    "Rock",
+    "Slayer"
+   ],
+   "role": "combattant"
+  },
+  {
+   "id": "ezreal",
+   "nom": "Ezreal",
+   "cout": 2,
+   "traits": [
+    "Heartsteel",
+    "Encore"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "gragas",
+   "nom": "Gragas",
+   "cout": 2,
+   "traits": [
+    "K|DA",
+    "Juggernaut",
+    "Collab"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "illaoi",
+   "nom": "Illaoi",
+   "cout": 2,
+   "traits": [
+    "Illbeats",
+    "Frontman"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "jax",
+   "nom": "Jax",
+   "cout": 2,
+   "traits": [
+    "EDM",
+    "Bodyguard",
+    "Swiftstriker"
+   ],
+   "role": "combattant"
+  },
+  {
+   "id": "karthus",
+   "nom": "Karthus",
+   "cout": 2,
+   "traits": [
+    "Pentakill",
+    "Arcanist",
+    "Collab"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "lucian",
+   "nom": "Lucian",
+   "cout": 2,
+   "traits": [
+    "Jazz",
+    "Hitmaker",
+    "Encore"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "lulu",
+   "nom": "Lulu",
+   "cout": 2,
+   "traits": [
+    "Hyperpop",
+    "Choreographer"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "les champions Hyperpop lancent X sorts avec le trait actif",
+    "en": "Hyperpop champions cast X times with the trait active",
+    "ko": "시너지 활성 중 Hyperpop 챔피언이 스킬 X번 사용",
+    "ja": "シナジー発動中にHyperpopのチャンピオンがスキルをX回使う",
+    "zh": "羁绊激活时 Hyperpop 英雄施法 X 次"
+   }
+  },
+  {
+   "id": "lux",
+   "nom": "Lux",
+   "cout": 2,
+   "traits": [
+    "Ionic Spark",
+    "Prodigy"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "nasus",
+   "nom": "Nasus",
+   "cout": 2,
+   "traits": [
+    "Classical",
+    "Bodyguard"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "qiyana",
+   "nom": "Qiyana",
+   "cout": 2,
+   "traits": [
+    "True Damage",
+    "Renegade"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "renataglasc",
+   "nom": "Renata Glasc",
+   "cout": 2,
+   "traits": [
+    "Classical",
+    "Choreographer"
+   ],
+   "role": "AP",
+   "court": "Renata"
+  },
+  {
+   "id": "renekton",
+   "nom": "Renekton",
+   "cout": 2,
+   "traits": [
+    "Beach Pop",
+    "Frontman"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "samira",
+   "nom": "Samira",
+   "cout": 2,
+   "traits": [
+    "Classical",
+    "Renegade",
+    "Trickshot"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "X objets sur un champion Classical, Renegade ou Trickshot",
+    "en": "X items on a Classical, Renegade or Trickshot champion",
+    "ko": "Classical, Renegade 또는 Trickshot 챔피언에게 아이템 X개",
+    "ja": "Classical、Renegade、TrickshotのいずれかのチャンピオンにアイテムX個",
+    "zh": "让一名 Classical、Renegade 或 Trickshot 英雄携带 X 件装备"
+   }
+  },
+  {
+   "id": "seraphine",
+   "nom": "Seraphine",
+   "cout": 2,
+   "traits": [
+    "Indie"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "relancer X fois avant le carrousel de l'étape 2",
+    "en": "reroll X times before the Stage 2 carousel",
+    "ko": "2단계 회전초밥 전에 X번 리롤",
+    "ja": "ステージ2のカルーセル前にX回リロール",
+    "zh": "在第 2 阶段选秀前刷新 X 次"
+   }
+  },
+  {
+   "id": "tristana",
+   "nom": "Tristana",
+   "cout": 2,
+   "traits": [
+    "Hyperpop",
+    "Hitmaker"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "X éliminations avec Hyperpop actif",
+    "en": "X kills with Hyperpop active",
+    "ko": "Hyperpop 활성 중 X번 처치",
+    "ja": "Hyperpop発動中にXキル",
+    "zh": "Hyperpop 激活时击杀 X 次"
+   }
+  },
+  {
+   "id": "amumu",
+   "nom": "Amumu",
+   "cout": 3,
+   "traits": [
+    "Emo"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "bard",
+   "nom": "Bard",
+   "cout": 3,
+   "traits": [
+    "Jazz",
+    "Swiftstriker"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "braum",
+   "nom": "Braum",
+   "cout": 3,
+   "traits": [
+    "Illbeats",
+    "Juggernaut"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "briar",
+   "nom": "Briar",
+   "cout": 3,
+   "traits": [
+    "Ionic Spark",
+    "Slayer",
+    "Collab"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "draven",
+   "nom": "Draven",
+   "cout": 3,
+   "traits": [
+    "Illbeats",
+    "Trickshot"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "ekko",
+   "nom": "Ekko",
+   "cout": 3,
+   "traits": [
+    "True Damage",
+    "Juggernaut",
+    "Prodigy"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "evelynn",
+   "nom": "Evelynn",
+   "cout": 3,
+   "traits": [
+    "K|DA",
+    "Renegade"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "X champions K|DA ou Renegade",
+    "en": "X K|DA or Renegade champions",
+    "ko": "K|DA 또는 Renegade 챔피언 X명",
+    "ja": "K|DAまたはRenegadeのチャンピオンをX体",
+    "zh": "X 个 K|DA 或 Renegade 英雄"
+   }
+  },
+  {
+   "id": "galio",
+   "nom": "Galio",
+   "cout": 3,
+   "traits": [
+    "Jazz",
+    "Frontman"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "ksante",
+   "nom": "K'Sante",
+   "cout": 3,
+   "traits": [
+    "Heartsteel",
+    "Bodyguard"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "kaisa",
+   "nom": "Kai'Sa",
+   "cout": 3,
+   "traits": [
+    "K|DA",
+    "Trickshot"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "malzahar",
+   "nom": "Malzahar",
+   "cout": 3,
+   "traits": [
+    "Composer",
+    "Prodigy"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "senna",
+   "nom": "Senna",
+   "cout": 3,
+   "traits": [
+    "True Damage",
+    "Hitmaker"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "swain",
+   "nom": "Swain",
+   "cout": 3,
+   "traits": [
+    "Rock",
+    "Arcanist",
+    "Frontman"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "syndra",
+   "nom": "Syndra",
+   "cout": 3,
+   "traits": [
+    "Beach Pop",
+    "Choreographer"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "tibbers",
+   "nom": "Tibbers",
+   "cout": 3,
+   "traits": [
+    "Ionic Spark",
+    "Bodyguard"
+   ],
+   "role": "tank",
+   "deblocage": {
+    "fr": "Annie en X étoiles avec X objet",
+    "en": "Annie at X stars holding X item",
+    "ko": "Annie X성에 아이템 X 장착",
+    "ja": "Annieを☆Xにしてアイテムを持たせる",
+    "zh": "Annie 升到 X 星并携带 X 件装备"
+   }
+  },
+  {
+   "id": "viego",
+   "nom": "Viego",
+   "cout": 3,
+   "traits": [
+    "Pentakill",
+    "Choreographer",
+    "Slayer"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "ahri",
+   "nom": "Ahri",
+   "cout": 4,
+   "traits": [
+    "K|DA",
+    "Choreographer"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "alistar",
+   "nom": "Alistar",
+   "cout": 4,
+   "traits": [
+    "Country"
+   ],
+   "role": "tank",
+   "deblocage": {
+    "fr": "un plastron équipé sur un lanceur de sorts ou un tireur",
+    "en": "a Chain Vest on a caster or a marksman",
+    "ko": "마법사 또는 원거리 딜러에게 쇠사슬 조끼 장착",
+    "ja": "キャスターまたはマークスマンにチェインベストを持たせる",
+    "zh": "让一名法师或射手携带锁子甲"
+   }
+  },
+  {
+   "id": "alune",
+   "nom": "Alune",
+   "cout": 4,
+   "traits": [
+    "Heartsteel",
+    "Manager",
+    "Prodigy"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "X champions Heartsteel ou Prodigy différents",
+    "en": "X different Heartsteel or Prodigy champions",
+    "ko": "서로 다른 Heartsteel 또는 Prodigy 챔피언 X명",
+    "ja": "HeartsteelまたはProdigyの異なるチャンピオンをX体",
+    "zh": "X 个不同的 Heartsteel 或 Prodigy 英雄"
+   }
+  },
+  {
+   "id": "aurora",
+   "nom": "Aurora",
+   "cout": 4,
+   "traits": [
+    "Ionic Spark",
+    "Renegade"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "garen",
+   "nom": "Garen",
+   "cout": 4,
+   "traits": [
+    "Synthwave",
+    "Choreographer"
+   ],
+   "role": "combattant"
+  },
+  {
+   "id": "graves",
+   "nom": "Graves",
+   "cout": 4,
+   "traits": [
+    "Beach Pop",
+    "Renegade"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "jhin",
+   "nom": "Jhin",
+   "cout": 4,
+   "traits": [
+    "Classical",
+    "Encore"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "jinx",
+   "nom": "Jinx",
+   "cout": 4,
+   "traits": [
+    "Ionic Spark",
+    "Hitmaker"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "X objets sur un champion Ionic Spark ou Hitmaker",
+    "en": "X items on an Ionic Spark or Hitmaker champion",
+    "ko": "Ionic Spark 또는 Hitmaker 챔피언에게 아이템 X개",
+    "ja": "Ionic SparkまたはHitmakerのチャンピオンにアイテムX個",
+    "zh": "让一名 Ionic Spark 或 Hitmaker 英雄携带 X 件装备"
+   }
+  },
+  {
+   "id": "kayle",
+   "nom": "Kayle",
+   "cout": 4,
+   "traits": [
+    "Pentakill",
+    "Swiftstriker"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "X champions Pentakill ou Swiftstriker différents",
+    "en": "X different Pentakill or Swiftstriker champions",
+    "ko": "서로 다른 Pentakill 또는 Swiftstriker 챔피언 X명",
+    "ja": "PentakillまたはSwiftstrikerの異なるチャンピオンをX体",
+    "zh": "X 个不同的 Pentakill 或 Swiftstriker 英雄"
+   }
+  },
+  {
+   "id": "leona",
+   "nom": "Leona",
+   "cout": 4,
+   "traits": [
+    "K|DA",
+    "Bodyguard",
+    "Manager"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "locke",
+   "nom": "Locke",
+   "cout": 4,
+   "traits": [
+    "Rock",
+    "Swiftstriker"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "mel",
+   "nom": "Mel",
+   "cout": 4,
+   "traits": [
+    "R&B",
+    "Arcanist"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "shyvana",
+   "nom": "Shyvana",
+   "cout": 4,
+   "traits": [
+    "Ionic Spark",
+    "Frontman"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "thresh",
+   "nom": "Thresh",
+   "cout": 4,
+   "traits": [
+    "Classical",
+    "Frontman"
+   ],
+   "role": "tank",
+   "deblocage": {
+    "fr": "les ennemis passent X secondes captivés par Classical",
+    "en": "enemies spend X seconds Captivated by Classical",
+    "ko": "적이 Classical에 X초 동안 매혹됨",
+    "ja": "敵がClassicalでX秒間魅了される",
+    "zh": "敌人被 Classical 着迷 X 秒"
+   }
+  },
+  {
+   "id": "vayne",
+   "nom": "Vayne",
+   "cout": 4,
+   "traits": [
+    "Rock",
+    "Trickshot"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "jouer Rock pendant X combats",
+    "en": "field Rock for X combats",
+    "ko": "X번의 전투 동안 Rock 활성화",
+    "ja": "X戦のあいだRockを発動",
+    "zh": "让 Rock 在场 X 场战斗"
+   }
+  },
+  {
+   "id": "wukong",
+   "nom": "Wukong",
+   "cout": 4,
+   "traits": [
+    "Gu Feng"
+   ],
+   "role": "combattant",
+   "deblocage": {
+    "fr": "vos alliés infligent X dégâts avec Xayah sur le plateau",
+    "en": "allies deal X damage with Xayah on the board",
+    "ko": "Xayah가 보드에 있을 때 아군이 피해 X",
+    "ja": "Xayahが盤面にいる状態で味方がXダメージを与える",
+    "zh": "Xayah 在场时友军造成 X 点伤害"
+   }
+  },
+  {
+   "id": "xayah",
+   "nom": "Xayah",
+   "cout": 4,
+   "traits": [
+    "Gu Feng",
+    "Hitmaker"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "yasuo",
+   "nom": "Yasuo",
+   "cout": 4,
+   "traits": [
+    "True Damage",
+    "Slayer"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "X niveaux d'étoiles de champions True Damage et Slayer",
+    "en": "X star levels of True Damage and Slayer champions",
+    "ko": "True Damage와 Slayer 챔피언의 별 합계 X개",
+    "ja": "True DamageとSlayerのチャンピオンの☆合計X個",
+    "zh": "True Damage 与 Slayer 英雄合计 X 个星级"
+   }
+  },
+  {
+   "id": "yone",
+   "nom": "Yone",
+   "cout": 4,
+   "traits": [
+    "Heartsteel",
+    "Slayer"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "yorick",
+   "nom": "Yorick",
+   "cout": 4,
+   "traits": [
+    "Pentakill",
+    "Juggernaut"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "yuumi",
+   "nom": "Yuumi",
+   "cout": 4,
+   "traits": [
+    "Illbeats",
+    "Encore",
+    "Collab"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "zac",
+   "nom": "Zac",
+   "cout": 4,
+   "traits": [
+    "Beach Pop",
+    "Juggernaut"
+   ],
+   "role": "tank",
+   "deblocage": {
+    "fr": "X champions Beach Pop ou Juggernaut différents",
+    "en": "X different Beach Pop or Juggernaut champions",
+    "ko": "서로 다른 Beach Pop 또는 Juggernaut 챔피언 X명",
+    "ja": "Beach PopまたはJuggernautの異なるチャンピオンをX体",
+    "zh": "X 个不同的 Beach Pop 或 Juggernaut 英雄"
+   }
+  },
+  {
+   "id": "akali",
+   "nom": "Akali",
+   "cout": 5,
+   "traits": [
+    "K|DA",
+    "True Damage",
+    "Freestyle"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "X niveaux d'étoiles K|DA uniques, sans avoir débloqué Akali True Damage",
+    "en": "X unique K|DA star levels, without having unlocked True Damage Akali",
+    "ko": "True Damage Akali를 해금하지 않은 상태에서 서로 다른 K|DA 별 X개",
+    "ja": "True Damage Akaliをアンロックせずに、K|DAのユニークな☆をX個",
+    "zh": "在未解锁 True Damage Akali 的情况下，凑齐 X 个不同的 K|DA 星级"
+   }
+  },
+  {
+   "id": "aphelios",
+   "nom": "Aphelios",
+   "cout": 5,
+   "traits": [
+    "Heartsteel"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "Alune ou Yone en X étoiles",
+    "en": "Alune or Yone at X stars",
+    "ko": "Alune 또는 Yone X성",
+    "ja": "AluneまたはYoneを☆X",
+    "zh": "Alune 或 Yone 升到 X 星"
+   }
+  },
+  {
+   "id": "drmundo",
+   "nom": "Dr. Mundo",
+   "cout": 5,
+   "traits": [
+    "Record Mogul",
+    "Manager"
+   ],
+   "role": "tank",
+   "court": "Mundo"
+  },
+  {
+   "id": "gwen",
+   "nom": "Gwen",
+   "cout": 5,
+   "traits": [
+    "Ionic Spark",
+    "Melodic Heart"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "les fans d'Ionic Spark applaudissent X fois",
+    "en": "Ionic Spark fans cheer X times",
+    "ko": "Ionic Spark 팬이 X번 환호",
+    "ja": "Ionic SparkのファンがX回声援を送る",
+    "zh": "Ionic Spark 的粉丝欢呼 X 次"
+   }
+  },
+  {
+   "id": "janna",
+   "nom": "Janna",
+   "cout": 5,
+   "traits": [
+    "Gu Feng",
+    "Windblessed",
+    "Prodigy"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "gagner X or d'intérêts avec Xayah sur le plateau",
+    "en": "earn X interest gold with Xayah on the board",
+    "ko": "Xayah가 보드에 있을 때 이자 X골드 획득",
+    "ja": "Xayahが盤面にいる状態で利子をXゴールド得る",
+    "zh": "Xayah 在场时获得 X 金币利息"
+   }
+  },
+  {
+   "id": "leesin",
+   "nom": "Lee Sin",
+   "cout": 5,
+   "traits": [
+    "Gu Feng"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "infliger X dégâts aux joueurs avec Xayah sur le plateau",
+    "en": "deal X damage to players with Xayah on the board",
+    "ko": "Xayah가 보드에 있을 때 플레이어에게 피해 X",
+    "ja": "Xayahが盤面にいる状態でプレイヤーにXダメージを与える",
+    "zh": "Xayah 在场时对玩家造成 X 点伤害"
+   }
+  },
+  {
+   "id": "missfortune",
+   "nom": "Miss Fortune",
+   "cout": 5,
+   "traits": [
+    "8-Bit",
+    "Hitmaker"
+   ],
+   "role": "AD",
+   "court": "MF"
+  },
+  {
+   "id": "mordekaiser",
+   "nom": "Mordekaiser",
+   "cout": 5,
+   "traits": [
+    "Pentakill"
+   ],
+   "role": "AP",
+   "court": "Morde",
+   "deblocage": {
+    "fr": "X niveaux d'étoiles uniques de Pentakill",
+    "en": "X unique Pentakill star levels",
+    "ko": "서로 다른 Pentakill 별 X개",
+    "ja": "Pentakillのユニークな☆をX個",
+    "zh": "X 个不同的 Pentakill 星级"
+   }
+  },
+  {
+   "id": "nidalee",
+   "nom": "Nidalee",
+   "cout": 5,
+   "traits": [
+    "Mariachi",
+    "Choreographer"
+   ],
+   "role": "AP"
+  },
+  {
+   "id": "nunuwillump",
+   "nom": "Nunu & Willump",
+   "cout": 5,
+   "traits": [
+    "Disco",
+    "Frontman"
+   ],
+   "role": "tank",
+   "court": "Nunu"
+  },
+  {
+   "id": "pyke",
+   "nom": "Pyke",
+   "cout": 5,
+   "traits": [
+    "Rock",
+    "Renegade"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "finir un combat avec X or ou plus",
+    "en": "end a combat with X gold or more",
+    "ko": "전투 종료 시 X골드 이상 보유",
+    "ja": "戦闘終了時にXゴールド以上を持つ",
+    "zh": "战斗结束时持有 X 金币或以上"
+   }
+  },
+  {
+   "id": "rell",
+   "nom": "Rell",
+   "cout": 5,
+   "traits": [
+    "R&B",
+    "Beat Master"
+   ],
+   "role": "tank"
+  },
+  {
+   "id": "taliyah",
+   "nom": "Taliyah",
+   "cout": 5,
+   "traits": [
+    "Beach Pop",
+    "Encore"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "un champion de chaque coût commence le combat sur une case Beach Pop",
+    "en": "a champion of each cost starts combat on a Beach Pop hex",
+    "ko": "각 코스트의 챔피언이 하나씩 Beach Pop 칸에서 전투 시작",
+    "ja": "各コストのチャンピオンが1体ずつBeach Popのマスで戦闘を開始する",
+    "zh": "每个费用各有一名英雄在 Beach Pop 格子上开始战斗"
+   }
+  },
+  {
+   "id": "teemo",
+   "nom": "Teemo",
+   "cout": 5,
+   "traits": [
+    "Hyperpop",
+    "Hype Man"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "accumuler X Hype Hyperpop",
+    "en": "store X Hyperpop Hype",
+    "ko": "Hyperpop Hype X 누적",
+    "ja": "HyperpopのHypeをX蓄積する",
+    "zh": "累积 X 点 Hyperpop Hype"
+   }
+  },
+  {
+   "id": "twistedfate",
+   "nom": "Twisted Fate",
+   "cout": 5,
+   "traits": [
+    "Tango",
+    "Trickshot"
+   ],
+   "role": "AP",
+   "court": "TF"
+  },
+  {
+   "id": "vi",
+   "nom": "Vi",
+   "cout": 5,
+   "traits": [
+    "EDM",
+    "Juggernaut"
+   ],
+   "role": "combattant"
+  },
+  {
+   "id": "vladimir",
+   "nom": "Vladimir",
+   "cout": 5,
+   "traits": [
+    "Classical",
+    "Arcanist"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "n'avoir que X champion dans les deux premières rangées",
+    "en": "only X champion in the two front rows",
+    "ko": "앞 두 줄에 챔피언 X명만 배치",
+    "ja": "前2列にチャンピオンをX体だけ置く",
+    "zh": "前两排只放 X 名英雄"
+   }
+  },
+  {
+   "id": "zeri",
+   "nom": "Zeri",
+   "cout": 5,
+   "traits": [
+    "Goth",
+    "Swiftstriker"
+   ],
+   "role": "AD"
+  },
+  {
+   "id": "baronnashor",
+   "nom": "Baron Nashor",
+   "cout": 7,
+   "traits": [
+    "One Monster Band"
+   ],
+   "role": "AP/AD",
+   "court": "Baron",
+   "cases": 2,
+   "deblocage": {
+    "fr": "réunir les cinq Instruments mystiques et infliger X dégâts avec Malzahar",
+    "en": "collect the five Mystical Instruments and deal X damage with Malzahar",
+    "ko": "신비한 악기 다섯 개를 모으고 Malzahar로 피해 X",
+    "ja": "神秘の楽器を5つ集め、MalzaharでXダメージを与える",
+    "zh": "集齐五件神秘乐器，并让 Malzahar 造成 X 点伤害"
+   }
+  },
+  {
+   "id": "rakan",
+   "nom": "Rakan",
+   "cout": 7,
+   "traits": [
+    "Boy Band",
+    "Choreographer"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "X victoires d'affilée, ou X défaites d'affilée, au niveau 8 ou plus",
+    "en": "X wins in a row, or X losses in a row, at level 8 or higher",
+    "ko": "8레벨 이상에서 X연승 또는 X연패",
+    "ja": "レベル8以上でX連勝、またはX連敗",
+    "zh": "8 级或以上时 X 连胜或 X 连败"
+   }
+  },
+  {
+   "id": "smeech",
+   "nom": "Smeech",
+   "cout": 7,
+   "traits": [
+    "Jazz",
+    "Slayer"
+   ],
+   "role": "AD",
+   "deblocage": {
+    "fr": "X traits non uniques actifs ou plus",
+    "en": "X or more non-unique traits active",
+    "ko": "고유하지 않은 시너지 X개 이상 활성화",
+    "ja": "ユニークでないシナジーをX個以上発動",
+    "zh": "激活 X 个或以上非独特羁绊"
+   }
+  },
+  {
+   "id": "sona",
+   "nom": "Sona",
+   "cout": 7,
+   "traits": [
+    "Producer",
+    "Collab"
+   ],
+   "role": "AP",
+   "deblocage": {
+    "fr": "les champions Collab sont inspirés X fois",
+    "en": "Collab champions are inspired X times",
+    "ko": "Collab 챔피언이 X번 영감을 받음",
+    "ja": "CollabのチャンピオンがX回インスパイアされる",
+    "zh": "Collab 英雄被激发灵感 X 次"
+   }
+  }
+ ],
+ "traits": {
+  "8-Bit": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Arcanist": {
+   "paliers": [
+    2,
+    4,
+    6
+   ],
+   "embleme": {
+    "fr": "spatule + baguette",
+    "en": "spatula + rod"
+   }
+  },
+  "Beach Pop": {
+   "paliers": [
+    3,
+    5,
+    7
+   ],
+   "embleme": {
+    "fr": "spatule + larme",
+    "en": "spatula + tear"
+   }
+  },
+  "Beat Master": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Bodyguard": {
+   "paliers": [
+    2,
+    4,
+    6
+   ],
+   "embleme": {
+    "fr": "spatule + plastron",
+    "en": "spatula + chain vest"
+   }
+  },
+  "Boy Band": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Choreographer": {
+   "paliers": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "Classical": {
+   "paliers": [
+    2,
+    4,
+    6
+   ],
+   "embleme": {
+    "fr": "spatule + arc",
+    "en": "spatula + bow"
+   }
+  },
+  "Collab": {
+   "paliers": [
+    3,
+    5
+   ],
+   "note": {
+    "fr": "change de champions à chaque partie",
+    "en": "different champions every game",
+    "ko": "게임마다 챔피언이 바뀜",
+    "ja": "試合ごとに対象が変わる",
+    "zh": "每局对应的英雄不同"
+   }
+  },
+  "Composer": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Country": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Disco": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "EDM": {
+   "paliers": [
+    2
+   ]
+  },
+  "Emo": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Encore": {
+   "paliers": [
+    2,
+    4
+   ]
+  },
+  "Freestyle": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Frontman": {
+   "paliers": [
+    2,
+    4,
+    6
+   ],
+   "embleme": {
+    "fr": "spatule + ceinture",
+    "en": "spatula + belt"
+   }
+  },
+  "Goth": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Gu Feng": {
+   "paliers": [
+    2,
+    3,
+    4
+   ]
+  },
+  "Heartsteel": {
+   "paliers": [
+    1,
+    3,
+    5,
+    7
+   ],
+   "embleme": {
+    "fr": "spatule + plastron",
+    "en": "spatula + chain vest"
+   }
+  },
+  "Hitmaker": {
+   "paliers": [
+    2,
+    4
+   ],
+   "embleme": {
+    "fr": "spatule + épée",
+    "en": "spatula + sword"
+   }
+  },
+  "Hype Man": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Hyperpop": {
+   "paliers": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "Illbeats": {
+   "paliers": [
+    2,
+    3,
+    4
+   ],
+   "embleme": {
+    "fr": "spatule + ceinture",
+    "en": "spatula + belt"
+   }
+  },
+  "Indie": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Ionic Spark": {
+   "paliers": [
+    3,
+    5,
+    7,
+    10
+   ],
+   "embleme": {
+    "fr": "spatule + cape",
+    "en": "spatula + cloak"
+   }
+  },
+  "Jazz": {
+   "paliers": [
+    2,
+    3,
+    4
+   ]
+  },
+  "Juggernaut": {
+   "paliers": [
+    2,
+    4,
+    6
+   ]
+  },
+  "K|DA": {
+   "paliers": [
+    3,
+    5,
+    7,
+    10,
+    13,
+    15,
+    21
+   ],
+   "compte": "etoiles",
+   "embleme": {
+    "fr": "spatule + baguette",
+    "en": "spatula + rod"
+   },
+   "note": {
+    "fr": "compte les étoiles",
+    "en": "counts star levels",
+    "ko": "별 개수로 계산",
+    "ja": "☆の数で数える",
+    "zh": "按星级计算"
+   }
+  },
+  "Manager": {
+   "paliers": [
+    2,
+    3,
+    4
+   ]
+  },
+  "Mariachi": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Melodic Heart": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "One Monster Band": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Pentakill": {
+   "paliers": [
+    3,
+    5,
+    7
+   ],
+   "embleme": {
+    "fr": "spatule + épée",
+    "en": "spatula + sword"
+   }
+  },
+  "Prodigy": {
+   "paliers": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "embleme": {
+    "fr": "spatule + larme",
+    "en": "spatula + tear"
+   }
+  },
+  "Producer": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "R&B": {
+   "paliers": [
+    1,
+    2
+   ]
+  },
+  "Record Mogul": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Renegade": {
+   "paliers": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "embleme": {
+    "fr": "spatule + gants",
+    "en": "spatula + gloves"
+   }
+  },
+  "Rock": {
+   "paliers": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "embleme": {
+    "fr": "spatule + gants",
+    "en": "spatula + gloves"
+   }
+  },
+  "Slayer": {
+   "paliers": [
+    2,
+    4,
+    6
+   ],
+   "embleme": {
+    "fr": "spatule + cape",
+    "en": "spatula + cloak"
+   }
+  },
+  "Swiftstriker": {
+   "paliers": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "embleme": {
+    "fr": "spatule + arc",
+    "en": "spatula + bow"
+   }
+  },
+  "Synthwave": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Tango": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  },
+  "Trickshot": {
+   "paliers": [
+    2,
+    3,
+    4
+   ]
+  },
+  "True Damage": {
+   "paliers": [
+    3,
+    5
+   ]
+  },
+  "Windblessed": {
+   "paliers": [
+    1
+   ],
+   "unique": true
+  }
+ }
+}

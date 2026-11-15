@@ -20,7 +20,7 @@
              fuites:function(k){return k + ' champions connus. Compos construites sur des informations sourcées, avant le PBE.';},
              pbe:'Construit sur les données du PBE. Elles changent presque chaque jour jusqu’à la sortie.',
              termine:'Le Set 19 est sorti : voici lesquelles ont tenu.'},
-      verdict:{tenue:'A tenu', tombee:'N’a pas tenu'}, pour:' pour '
+      verdict:{tenue:'A tenu', tombee:'N’a pas tenu'}, pour:' pour ', ouvrir:'Ouvrir dans le builder'
     },
     en: {
       cases: {A:'1-cost reroll', B:'2-cost reroll', C:'3-cost reroll', D:'Level 8 · AD carry', E:'Level 8 · AP carry', F:'Level 9 · legendaries', G:'Vertical trait'},
@@ -34,7 +34,7 @@
              fuites:function(k){return k + ' champions known. Comps built on sourced information, before the PBE.';},
              pbe:'Built on PBE data, which changes almost every day until release.',
              termine:'Set 19 is out: here is which ones held up.'},
-      verdict:{tenue:'Held up', tombee:'Did not hold up'}, pour:' on '
+      verdict:{tenue:'Held up', tombee:'Did not hold up'}, pour:' on ', ouvrir:'Open in the team builder'
     },
     ko: {
       cases: {A:'1코스트 리롤', B:'2코스트 리롤', C:'3코스트 리롤', D:'8레벨 · AD 캐리', E:'8레벨 · AP 캐리', F:'9레벨 · 전설', G:'시너지 집중'},
@@ -48,7 +48,7 @@
              fuites:function(k){return '알려진 챔피언 ' + k + '명. 출처가 확인된 정보로 PBE 이전에 만든 덱입니다.';},
              pbe:'PBE 데이터 기준입니다. 출시 전까지 거의 매일 바뀝니다.',
              termine:'세트 19가 출시되었습니다. 어떤 예측이 맞았는지 확인하세요.'},
-      verdict:{tenue:'적중', tombee:'빗나감'}, pour:' · '
+      verdict:{tenue:'적중', tombee:'빗나감'}, pour:' · ', ouvrir:'덱 빌더에서 열기'
     },
     ja: {
       cases: {A:'1コスト リロール', B:'2コスト リロール', C:'3コスト リロール', D:'レベル8・ADキャリー', E:'レベル8・APキャリー', F:'レベル9・レジェンダリー', G:'縦シナジー'},
@@ -62,7 +62,7 @@
              fuites:function(k){return '判明しているチャンピオン：' + k + '体。出典のある情報をもとに、PBE前に組んだ構成です。';},
              pbe:'PBEのデータに基づいています。リリースまでほぼ毎日変わります。',
              termine:'セット19がリリースされました。どの予想が当たったかをご覧ください。'},
-      verdict:{tenue:'的中', tombee:'外れ'}, pour:'：'
+      verdict:{tenue:'的中', tombee:'外れ'}, pour:'：', ouvrir:'ビルダーで開く'
     },
     zh: {
       cases: {A:'1费追三星', B:'2费追三星', C:'3费追三星', D:'8级 · 物理主C', E:'8级 · 法系主C', F:'9级 · 五费传说', G:'纯羁绊'},
@@ -76,7 +76,7 @@
              fuites:function(k){return '已知英雄 ' + k + ' 位。阵容基于有出处的信息，在 PBE 之前构建。';},
              pbe:'基于 PBE 数据。正式上线前几乎每天都在变化。',
              termine:'第19赛季已上线：来看看哪些预测成立了。'},
-      verdict:{tenue:'成立', tombee:'未成立'}, pour:'：'
+      verdict:{tenue:'成立', tombee:'未成立'}, pour:'：', ouvrir:'在阵容模拟器中打开'
     }
   };
   var T = I[L] || I.en;
@@ -128,6 +128,8 @@
     h += '</dl>';
     if (c.verdict && T.verdict[c.verdict])
       h += '<p class="verdict ' + esc(c.verdict) + '">' + esc(T.verdict[c.verdict]) + (c.verdict_note ? ' — ' + esc(t(c.verdict_note)) : '') + '</p>';
+    if (c.plateau && c.plateau.length)
+      h += '<p class="fiche-actions"><button type="button" class="bd-btn ouvrir-builder" data-compo="' + esc(c.id) + '">' + esc(T.ouvrir) + '</button></p>';
     var sources = (c.sources || []).filter(function(s){ return /^https?:\/\//.test(s.url || ''); });
     if (c.tomberait_si || sources.length) {
       h += '<details><summary>' + esc(T.tomber) + ' · ' + esc(T.sources) + '</summary>';
@@ -141,6 +143,7 @@
   }
 
   function afficher(d){
+    sec._predictions = d;   // le builder y lit le plateau d'une compo
     var compos = (d.compos || []).filter(function(c){ return c && c.case && T.cases[c.case]; });
     var etat = sec.querySelector('.pr-etat'), maj = sec.querySelector('.pr-maj');
     var e = T.etats[d.etat] || T.etats.attente;

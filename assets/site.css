@@ -189,3 +189,92 @@ body:has(#predictions:target) .o-predictions{color:var(--encre);background:var(-
  .onglets a{white-space:nowrap;padding:6px 11px}
 }
 @media (prefers-reduced-motion:reduce){.case polygon{transition:none}}
+/* ── Builder du Set 19 ─────────────────────────────────────────────────
+   Dans l'onglet Prédictions, sous les compos. Le plateau reprend la forme du
+   jeu : quatre rangées de sept cases, une sur deux décalée, la ligne de front
+   en haut. Une case porte la couleur du coût de son champion. */
+.builder{margin-top:64px;padding-top:32px;border-top:1px solid rgba(194,207,221,.28);scroll-margin-top:16px}
+.builder>h2{font:600 1.9rem/1.15 var(--serif)}
+.builder>p{margin-top:8px;color:var(--doux);max-width:44rem}
+.pr-vers-builder{display:inline-block;margin-top:14px;font-weight:600;color:var(--or);text-underline-offset:4px}
+.fiche-actions{margin-top:16px}
+.bd-btn{font:600 .95rem/1.2 var(--sans);color:var(--texte);background:rgba(194,207,221,.1);border:1px solid var(--trait);border-radius:6px;padding:7px 13px;cursor:pointer}
+.bd-btn:hover{border-color:var(--doux)}
+.bd-btn[aria-pressed="true"]{background:var(--or);border-color:var(--or);color:var(--encre)}
+.bd{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:28px 44px;margin-top:28px;align-items:start}
+.bd-gauche{container-type:inline-size;min-width:0}
+.bd-barre{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}
+.bd-niveau{font-weight:600}
+.bd-actions{display:flex;flex-wrap:wrap;gap:8px}
+.bd-lien{margin-top:8px;color:#7fd6a2;font-size:.95rem}
+.bd-lien input{display:block;width:100%;margin-top:4px}
+.bd-cadre{--h:56px;--g:4px;--h:min(74px,calc((100cqi - 8px) / 7.75));width:max-content;max-width:100%;margin-top:18px}
+.bd-devant{text-align:center;font-size:.85rem;color:var(--doux);margin-bottom:6px}
+.bd-rangee{display:flex;gap:var(--g)}
+.bd-rangee+.bd-rangee{margin-top:calc(var(--h) * -.2887 + var(--g))}
+.bd-rangee.decale{padding-left:calc((var(--h) + var(--g)) / 2)}
+.hex{position:relative;flex:none;width:var(--h);height:calc(var(--h) * 1.1547);padding:0;border:0;cursor:pointer;
+ clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);background:var(--bord,rgba(93,124,158,.75));
+ color:var(--encre);font:600 .74rem/1.05 var(--sans);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hex[hidden]{display:none}
+.hex::before{content:"";position:absolute;inset:var(--e,2px);clip-path:inherit;background:var(--rempli,rgba(18,42,71,.92))}
+.hex>*{position:relative}
+.hex:hover{--bord:var(--doux)}
+.hex:focus-visible{outline:none;--bord:var(--or);--e:4px}
+.hex.unite{--bord:var(--fond-sombre)}
+.hex.choisi{--bord:#fff;--e:4px}
+.hex.survol{--bord:var(--or);--e:4px}
+.bd-plateau.deplace .hex:not(.unite){--rempli:rgba(231,174,69,.16)}
+.k1{--rempli:#9aa8b8}.k2{--rempli:#5fbf86}.k3{--rempli:#5aa2e6}.k4{--rempli:#b98cf0}.k5{--rempli:var(--or)}
+.k7{--rempli:linear-gradient(135deg,#7fe0d8,#c9a2f5 50%,#f3c46b)}
+.bd-nom{padding:0 3px;overflow-wrap:anywhere;font-size:clamp(.56rem,calc(var(--h) * .165),.76rem)}
+.hex.long .bd-nom{font-size:clamp(.52rem,calc(var(--h) * .135),.66rem)}
+.bd-etoiles{font-size:.62rem;letter-spacing:1px;line-height:1;margin-bottom:3px}
+.bd-emb{font-size:.6rem;margin-top:2px}
+.bd-aide{margin-top:14px;color:var(--doux);font-size:.92rem;max-width:40rem}
+.bd-choisi{margin-top:16px;background:rgba(18,42,71,.72);border:1px solid var(--trait);border-radius:8px;padding:16px 18px}
+.bd-ch-tete{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.bd-ch-tete strong{font:600 1.2rem/1.2 var(--serif)}
+.bd-ch-tete .faible{color:var(--doux)}
+.bd-choisi p{margin-top:6px;color:var(--doux);font-size:.95rem}
+.bd-choisi .bd-ch-deb{color:var(--texte)}
+.bd-ch-ctrl{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin-top:12px}
+.bd-ch-etoiles{display:flex;gap:4px}
+.bd-ch-emb{display:inline-flex;align-items:center;gap:8px;color:var(--doux)}
+.builder select,.builder input[type=search],.bd-lien input{font:inherit;font-size:.95rem;color:var(--texte);background:var(--fond-sombre);border:1px solid var(--trait);border-radius:6px;padding:6px 10px;max-width:100%}
+.builder input[type=search]{width:16rem}
+.bd-traits h3{font:600 1.25rem/1.2 var(--serif);margin:0 0 10px}
+.bd-traits ul{display:flex;flex-direction:column;gap:2px}
+.bd-vide{color:var(--doux);font-size:.95rem}
+.bd-t{width:100%;display:grid;grid-template-columns:2.1rem minmax(0,1fr);column-gap:10px;align-items:center;text-align:left;background:none;border:1px solid transparent;border-radius:6px;padding:4px 6px;color:var(--texte);font:inherit;cursor:pointer}
+.bd-t:hover{border-color:var(--trait)}
+.bd-t[aria-pressed="true"]{border-color:var(--or)}
+.bd-k{grid-row:1/3;width:2.1rem;height:2.42rem;display:flex;align-items:center;justify-content:center;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);font-weight:600;color:var(--encre);background:var(--teinte)}
+.bd-tn{font-weight:600;line-height:1.2}
+.bd-tn small{font-weight:400;font-size:.8rem;color:var(--doux);margin-left:6px}
+.bd-ps{font-size:.82rem;color:var(--doux);line-height:1.3}
+.bd-ps b{color:var(--texte)}
+.t-bronze{--teinte:#c08457}.t-argent{--teinte:#c9d4df}.t-or{--teinte:var(--or)}.t-unique{--teinte:#efd29c}
+.t-prisme{--teinte:linear-gradient(135deg,#7fe0d8,#c9a2f5 50%,#f3c46b)}
+.t-inactif{--teinte:rgba(194,207,221,.2)}
+.t-inactif .bd-k{color:var(--doux)}
+.t-inactif .bd-tn{font-weight:400;color:var(--doux)}
+.bd-reserve{margin-top:40px}
+.bd-filtres{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.bd-deb{display:inline-flex;align-items:center;gap:6px;color:var(--doux)}
+.bd-groupe{margin-top:20px}
+.bd-groupe h4{margin:0 0 8px;font:600 .95rem/1.2 var(--sans);color:var(--doux)}
+.bd-jetons{--h:60px;display:flex;flex-wrap:wrap;gap:6px}
+.jeton{cursor:grab}
+.jeton.pose{opacity:.35}
+.jeton .cle{width:.78rem;height:.78rem;margin-top:3px}
+.bd-rien{margin-top:16px;color:var(--doux)}
+.bd-note{margin-top:28px;color:var(--doux);font-size:.9rem;max-width:44rem}
+@media (max-width:900px){
+ .bd{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:640px){
+ .builder>h2{font-size:1.6rem}
+ .bd-jetons{--h:54px}
+ .builder input[type=search]{width:100%}
+}

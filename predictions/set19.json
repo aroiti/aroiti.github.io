@@ -3,7 +3,7 @@
  "set": 19,
  "nom_set": "Prismatic Tour",
  "etat": "fuites",
- "maj": "2026-11-15T13:41:09+01:00",
+ "maj": "2026-11-15T14:02:07+01:00",
  "connus": {
   "champions": 93
  },
@@ -33,10 +33,6 @@
      "cout": 1
     },
     {
-     "nom": "Elise",
-     "cout": 1
-    },
-    {
      "nom": "Sett",
      "cout": 1
     }
@@ -51,8 +47,40 @@
      "palier": 2
     },
     {
-     "nom": "Swiftstriker",
+     "nom": "Frontman",
      "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Ziggs",
+     "cout": 1,
+     "etoiles": 3
+    },
+    {
+     "nom": "Kobuko",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Tristana",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lulu",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Zoe",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Sett",
+     "cout": 1,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -182,16 +210,40 @@
      "palier": 10
     },
     {
-     "nom": "Prodigy",
-     "palier": 2
-    },
-    {
      "nom": "Bodyguard",
      "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Neeko",
+     "cout": 1,
+     "etoiles": 3
     },
     {
-     "nom": "Encore",
-     "palier": 2
+     "nom": "Lillia",
+     "cout": 1,
+     "etoiles": 3
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Kai'Sa",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Evelynn",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Kennen",
+     "cout": 1,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -321,6 +373,38 @@
      "palier": 2
     }
    ],
+   "plateau": [
+    {
+     "nom": "Yunara",
+     "cout": 1,
+     "etoiles": 3
+    },
+    {
+     "nom": "Elise",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Briar",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Jax",
+     "cout": 2,
+     "etoiles": 2
+    }
+   ],
    "objets": [
     {
      "pour": "Yunara",
@@ -421,7 +505,7 @@
     "ja": "Jazzは発動中のシナジーごとに体力とダメージ増幅を与えます。シナジーを幅広く発動させる方向に働き、まさにSmeechのアンロック条件と一致します。",
     "zh": "Jazz 按激活的羁绊数量提供生命值和伤害增幅：它鼓励多开羁绊，正是 Smeech 的解锁条件。"
    },
-   "niveau": 6,
+   "niveau": 7,
    "porteurs": [
     {
      "nom": "Lucian",
@@ -444,16 +528,57 @@
      "palier": 3
     },
     {
-     "nom": "Hitmaker",
-     "palier": 2
-    },
-    {
      "nom": "Encore",
      "palier": 2
     },
     {
      "nom": "Frontman",
      "palier": 2
+    },
+    {
+     "nom": "Hitmaker",
+     "palier": 2
+    },
+    {
+     "nom": "Swiftstriker",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Lucian",
+     "cout": 2,
+     "etoiles": 3
+    },
+    {
+     "nom": "Galio",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Bard",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Illaoi",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Ezreal",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Senna",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Jax",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -588,6 +713,42 @@
     {
      "nom": "Encore",
      "palier": 2
+    },
+    {
+     "nom": "Slayer",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Ezreal",
+     "cout": 2,
+     "etoiles": 3
+    },
+    {
+     "nom": "Kayn",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Sett",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yone",
+     "cout": 4,
+     "etoiles": 1
+    },
+    {
+     "nom": "Lucian",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -726,10 +887,38 @@
     {
      "nom": "Prodigy",
      "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Lux",
+     "cout": 2,
+     "etoiles": 3
     },
     {
-     "nom": "Arcanist",
-     "palier": 2
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Elise",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Tibbers",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Briar",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Neeko",
+     "cout": 1,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -859,12 +1048,49 @@
      "palier": 13
     },
     {
-     "nom": "Trickshot",
+     "nom": "Bodyguard",
      "palier": 2
     },
     {
-     "nom": "Bodyguard",
+     "nom": "Trickshot",
      "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Kai'Sa",
+     "cout": 3,
+     "etoiles": 3
+    },
+    {
+     "nom": "Neeko",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Leona",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Evelynn",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gnar",
+     "cout": 1,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -992,6 +1218,43 @@
     {
      "nom": "Hitmaker",
      "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Senna",
+     "cout": 3,
+     "etoiles": 3
+    },
+    {
+     "nom": "Qiyana",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Ekko",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Kennen",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yasuo",
+     "cout": 4,
+     "etoiles": 1
+    },
+    {
+     "nom": "Lucian",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Illaoi",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1124,12 +1387,53 @@
      "palier": 5
     },
     {
-     "nom": "Slayer",
+     "nom": "Choreographer",
      "palier": 2
     },
     {
-     "nom": "Choreographer",
+     "nom": "Juggernaut",
      "palier": 2
+    },
+    {
+     "nom": "Slayer",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Viego",
+     "cout": 3,
+     "etoiles": 3
+    },
+    {
+     "nom": "Gnar",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Karthus",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yorick",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Camille",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Renata Glasc",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1270,12 +1574,54 @@
      "palier": 4
     },
     {
-     "nom": "Hitmaker",
+     "nom": "Frontman",
      "palier": 2
     },
     {
-     "nom": "Frontman",
+     "nom": "Hitmaker",
      "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Xayah",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lee Sin",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Wukong",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Janna",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Shyvana",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Thresh",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Senna",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Galio",
+     "cout": 3,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1412,12 +1758,62 @@
      "palier": 5
     },
     {
-     "nom": "Trickshot",
+     "nom": "Pentakill",
+     "palier": 3
+    },
+    {
+     "nom": "Juggernaut",
      "palier": 2
     },
     {
      "nom": "Swiftstriker",
      "palier": 2
+    },
+    {
+     "nom": "Trickshot",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Vayne",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Locke",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Swain",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Camille",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gnar",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Jax",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yorick",
+     "cout": 4,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1550,12 +1946,58 @@
      "palier": 4
     },
     {
-     "nom": "Encore",
-     "palier": 2
+     "nom": "Heartsteel",
+     "palier": 3
     },
     {
      "nom": "Bodyguard",
      "palier": 2
+    },
+    {
+     "nom": "Encore",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Jhin",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Thresh",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Nasus",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Samira",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Ezreal",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Kayn",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Leona",
+     "cout": 4,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1689,12 +2131,58 @@
      "palier": 13
     },
     {
+     "nom": "Bodyguard",
+     "palier": 2
+    },
+    {
      "nom": "Choreographer",
      "palier": 2
     },
     {
-     "nom": "Bodyguard",
-     "palier": 2
+     "nom": "Freestyle",
+     "palier": 1
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Ahri",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Akali",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Leona",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gragas",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Neeko",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Kai'Sa",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Syndra",
+     "cout": 3,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1830,6 +2318,52 @@
     {
      "nom": "Frontman",
      "palier": 2
+    },
+    {
+     "nom": "Jazz",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Mel",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Rell",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Swain",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Karthus",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Galio",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Bard",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -1970,8 +2504,58 @@
      "palier": 7
     },
     {
+     "nom": "Frontman",
+     "palier": 2
+    },
+    {
      "nom": "Renegade",
      "palier": 2
+    },
+    {
+     "nom": "Melodic Heart",
+     "palier": 1
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Aurora",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gwen",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Shyvana",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Tibbers",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Elise",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Qiyana",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -2109,7 +2693,11 @@
    "traits": [
     {
      "nom": "Prodigy",
-     "palier": 3
+     "palier": 4
+    },
+    {
+     "nom": "Juggernaut",
+     "palier": 2
     },
     {
      "nom": "Composer",
@@ -2118,6 +2706,48 @@
     {
      "nom": "One Monster Band",
      "palier": 1
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Baron Nashor",
+     "cout": 7,
+     "etoiles": 1
+    },
+    {
+     "nom": "Malzahar",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Ekko",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Braum",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Alune",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Mel",
+     "cout": 4,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -2241,7 +2871,11 @@
      "cout": 4
     },
     {
-     "nom": "Syndra",
+     "nom": "Leona",
+     "cout": 4
+    },
+    {
+     "nom": "K'Sante",
      "cout": 3
     }
    ],
@@ -2253,6 +2887,65 @@
     {
      "nom": "K|DA",
      "palier": 3
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    },
+    {
+     "nom": "Boy Band",
+     "palier": 1
+    },
+    {
+     "nom": "Mariachi",
+     "palier": 1
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Rakan",
+     "cout": 7,
+     "etoiles": 1
+    },
+    {
+     "nom": "Ahri",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Nidalee",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Garen",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Syndra",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Leona",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Thresh",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Mel",
+     "cout": 4,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -2384,6 +3077,56 @@
     {
      "nom": "Pentakill",
      "palier": 7
+    },
+    {
+     "nom": "Juggernaut",
+     "palier": 2
+    },
+    {
+     "nom": "Swiftstriker",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Mordekaiser",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Kayle",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yorick",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Olaf",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Viego",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gnar",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Karthus",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Jax",
+     "cout": 2,
+     "etoiles": 2
     }
    ],
    "objets": [
@@ -2506,7 +3249,7 @@
     "ja": "最終段階10に対してメンバーはちょうど10体。全員を出すか、紋章（ヘラ＋ネガトロンクローク）が必要です。うち3体はアンロック対象で、10段階ではファンがステージに押し寄せます。",
     "zh": "最终 10 档正好十名成员：必须全部上场，或者用一个纹章（金铲铲 + 负极斗篷）。其中三人需要解锁，到 10 档时粉丝会冲上舞台。"
    },
-   "niveau": 9,
+   "niveau": 10,
    "porteurs": [
     {
      "nom": "Gwen",
@@ -2539,6 +3282,66 @@
     {
      "nom": "Ionic Spark",
      "palier": 10
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    },
+    {
+     "nom": "Melodic Heart",
+     "palier": 1
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Gwen",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Jinx",
+     "cout": 4,
+     "etoiles": 1
+    },
+    {
+     "nom": "Aurora",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Shyvana",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Tibbers",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lux",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Briar",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Elise",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yunara",
+     "cout": 1,
+     "etoiles": 2
     }
    ],
    "objets": [
