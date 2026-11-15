@@ -198,6 +198,7 @@ body:has(#predictions:target) .o-predictions{color:var(--encre);background:var(-
 .builder>p{margin-top:8px;color:var(--doux);max-width:44rem}
 .pr-vers-builder{display:inline-block;margin-top:14px;font-weight:600;color:var(--or);text-underline-offset:4px}
 .fiche-actions{margin-top:16px}
+.etoiles-f{font-size:.72rem;letter-spacing:1px;color:var(--or);margin-left:-2px}
 .bd-btn{font:600 .95rem/1.2 var(--sans);color:var(--texte);background:rgba(194,207,221,.1);border:1px solid var(--trait);border-radius:6px;padding:7px 13px;cursor:pointer}
 .bd-btn:hover{border-color:var(--doux)}
 .bd-btn[aria-pressed="true"]{background:var(--or);border-color:var(--or);color:var(--encre)}

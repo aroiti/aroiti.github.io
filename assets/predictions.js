@@ -12,7 +12,7 @@
       cases: {A:'Compo trois étoiles · 1 coût', B:'Compo trois étoiles · 2 coûts', C:'Compo trois étoiles · 3 coûts', D:'Niveau 8 · dégâts physiques', E:'Niveau 8 · dégâts magiques', F:'Niveau 9 · légendaires', G:'Trait vertical'},
       vide:'à remplir', n:function(k){return k + (k > 1 ? ' compos' : ' compo');},
       confiance:{forte:'confiance forte', moyenne:'confiance moyenne', speculative:'spéculative'},
-      porteurs:'Porteurs', front:'Ligne de front', traits:'Traits visés', niveau:'Niveau', objets:'Objets', composants:'Composants à ramasser d’abord',
+      porteurs:'Porteurs', front:'Ligne de front', plateau:'Plateau complet', traits:'Traits visés', niveau:'Niveau', objets:'Objets', composants:'Composants à ramasser d’abord',
       deblocage:'Déblocage', sur:'se remplit en jouant la compo', detour:'demande un détour', debut:'Début de partie', td:'True Damage',
       faceA:'face A, série de victoires', faceB:'face B, série de défaites',
       tomber:'Ce qui la ferait tomber', sources:'Sources', maj:'Mis à jour le ',
@@ -26,7 +26,7 @@
       cases: {A:'1-cost reroll', B:'2-cost reroll', C:'3-cost reroll', D:'Level 8 · AD carry', E:'Level 8 · AP carry', F:'Level 9 · legendaries', G:'Vertical trait'},
       vide:'to fill', n:function(k){return k + (k > 1 ? ' comps' : ' comp');},
       confiance:{forte:'high confidence', moyenne:'medium confidence', speculative:'speculative'},
-      porteurs:'Carries', front:'Frontline', traits:'Target traits', niveau:'Level', objets:'Items', composants:'Components to collect first',
+      porteurs:'Carries', front:'Frontline', plateau:'Full board', traits:'Target traits', niveau:'Level', objets:'Items', composants:'Components to collect first',
       deblocage:'Unlock', sur:'met naturally by playing the comp', detour:'needs a detour', debut:'Early game', td:'True Damage',
       faceA:'side A, win streak', faceB:'side B, loss streak',
       tomber:'What would break it', sources:'Sources', maj:'Updated ',
@@ -40,7 +40,7 @@
       cases: {A:'1코스트 리롤', B:'2코스트 리롤', C:'3코스트 리롤', D:'8레벨 · AD 캐리', E:'8레벨 · AP 캐리', F:'9레벨 · 전설', G:'시너지 집중'},
       vide:'비어 있음', n:function(k){return '덱 ' + k + '개';},
       confiance:{forte:'신뢰도 높음', moyenne:'신뢰도 보통', speculative:'추측'},
-      porteurs:'캐리', front:'탱커 라인', traits:'목표 시너지', niveau:'레벨', objets:'아이템', composants:'먼저 모을 재료',
+      porteurs:'캐리', front:'탱커 라인', plateau:'전체 배치', traits:'목표 시너지', niveau:'레벨', objets:'아이템', composants:'먼저 모을 재료',
       deblocage:'해금', sur:'덱을 운영하면 자연스럽게 충족', detour:'별도로 노려야 함', debut:'초반', td:'True Damage',
       faceA:'A면, 연승', faceB:'B면, 연패',
       tomber:'이 예측이 틀어지는 조건', sources:'출처', maj:'업데이트: ',
@@ -54,7 +54,7 @@
       cases: {A:'1コスト リロール', B:'2コスト リロール', C:'3コスト リロール', D:'レベル8・ADキャリー', E:'レベル8・APキャリー', F:'レベル9・レジェンダリー', G:'縦シナジー'},
       vide:'未定', n:function(k){return k + '構成';},
       confiance:{forte:'信頼度：高', moyenne:'信頼度：中', speculative:'推測'},
-      porteurs:'キャリー', front:'前衛', traits:'狙うシナジー', niveau:'レベル', objets:'アイテム', composants:'優先して集める素材',
+      porteurs:'キャリー', front:'前衛', plateau:'最終盤面', traits:'狙うシナジー', niveau:'レベル', objets:'アイテム', composants:'優先して集める素材',
       deblocage:'アンロック', sur:'構成を組めば自然に達成', detour:'別途狙う必要あり', debut:'序盤', td:'True Damage',
       faceA:'A面、連勝', faceB:'B面、連敗',
       tomber:'この予想が崩れる条件', sources:'出典', maj:'更新：',
@@ -68,7 +68,7 @@
       cases: {A:'1费追三星', B:'2费追三星', C:'3费追三星', D:'8级 · 物理主C', E:'8级 · 法系主C', F:'9级 · 五费传说', G:'纯羁绊'},
       vide:'待填', n:function(k){return k + '套阵容';},
       confiance:{forte:'把握较大', moyenne:'把握一般', speculative:'推测'},
-      porteurs:'主C', front:'前排', traits:'目标羁绊', niveau:'等级', objets:'装备', composants:'优先收集的散件',
+      porteurs:'主C', front:'前排', plateau:'完整阵容', traits:'目标羁绊', niveau:'等级', objets:'装备', composants:'优先收集的散件',
       deblocage:'解锁', sur:'按阵容运营即可顺路完成', detour:'需要专门绕路', debut:'前期', td:'True Damage',
       faceA:'A面，连胜', faceB:'B面，连败',
       tomber:'什么情况会推翻它', sources:'来源', maj:'更新于 ',
@@ -93,7 +93,8 @@
   }
   function unite(u){
     var c = u.cout ? '<span class="cout c' + esc(u.cout) + '" title="' + esc(u.cout) + '">' + esc(u.cout) + '</span>' : '';
-    return '<span class="unite">' + c + esc(t(u.nom)) + '</span>';
+    var e = u.etoiles ? '<span class="etoiles-f" aria-label="' + esc(u.etoiles) + ' ★">' + new Array(u.etoiles + 1).join('★') + '</span>' : '';
+    return '<span class="unite">' + c + esc(t(u.nom)) + e + '</span>';
   }
   function unites(l){ return '<div class="unites">' + (l || []).map(unite).join('') + '</div>'; }
   function ligne(dt, dd){ return dd ? '<dt>' + esc(dt) + '</dt><dd>' + dd + '</dd>' : ''; }
@@ -108,6 +109,8 @@
     h += '<dl>';
     h += ligne(T.porteurs, c.porteurs && c.porteurs.length ? unites(c.porteurs) : '');
     h += ligne(T.front, c.front && c.front.length ? unites(c.front) : '');
+    // Le plateau complet, au niveau annoncé : tous les champions, avec leurs étoiles.
+    h += ligne(T.plateau, c.plateau && c.plateau.length ? unites(c.plateau) : '');
     h += ligne(T.traits, c.traits && c.traits.length ? '<div class="puces">' + c.traits.map(function(x){
       return '<span class="puce">' + esc(t(x.nom)) + (x.palier ? ' ' + esc(x.palier) : '') + '</span>';
     }).join('') + '</div>' : '');
