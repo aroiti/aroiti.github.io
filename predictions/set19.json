@@ -3,7 +3,7 @@
  "set": 19,
  "nom_set": "Prismatic Tour",
  "etat": "fuites",
- "maj": "2026-11-15T14:17:17+01:00",
+ "maj": "2026-11-16T13:11:27+01:00",
  "connus": {
   "champions": 93
  },
@@ -1550,8 +1550,8 @@
      "cout": 4
     },
     {
-     "nom": "Lee Sin",
-     "cout": 5
+     "nom": "Jinx",
+     "cout": 4
     }
    ],
    "front": [
@@ -1564,14 +1564,22 @@
      "cout": 4
     },
     {
-     "nom": "Thresh",
-     "cout": 4
+     "nom": "Swain",
+     "cout": 3
     }
    ],
    "traits": [
     {
      "nom": "Gu Feng",
-     "palier": 4
+     "palier": 3
+    },
+    {
+     "nom": "Ionic Spark",
+     "palier": 3
+    },
+    {
+     "nom": "Arcanist",
+     "palier": 2
     },
     {
      "nom": "Frontman",
@@ -1580,28 +1588,31 @@
     {
      "nom": "Hitmaker",
      "palier": 2
+    },
+    {
+     "nom": "Juggernaut",
+     "palier": 2
+    },
+    {
+     "nom": "Prodigy",
+     "palier": 2
     }
    ],
    "plateau": [
-    {
-     "nom": "Xayah",
-     "cout": 4,
-     "etoiles": 2
-    },
-    {
-     "nom": "Lee Sin",
-     "cout": 5,
-     "etoiles": 1
-    },
     {
      "nom": "Wukong",
      "cout": 4,
      "etoiles": 2
     },
     {
-     "nom": "Janna",
-     "cout": 5,
-     "etoiles": 1
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Ekko",
+     "cout": 3,
+     "etoiles": 2
     },
     {
      "nom": "Shyvana",
@@ -1609,19 +1620,24 @@
      "etoiles": 2
     },
     {
-     "nom": "Thresh",
+     "nom": "Swain",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Xayah",
      "cout": 4,
      "etoiles": 2
     },
     {
-     "nom": "Senna",
-     "cout": 3,
+     "nom": "Jinx",
+     "cout": 4,
      "etoiles": 2
     },
     {
-     "nom": "Galio",
-     "cout": 3,
-     "etoiles": 2
+     "nom": "Janna",
+     "cout": 5,
+     "etoiles": 1
     }
    ],
    "objets": [
@@ -1637,13 +1653,37 @@
        "en": "Last Whisper"
       },
       {
+       "fr": "Tueur de géants",
+       "en": "Giant Slayer"
+      }
+     ]
+    },
+    {
+     "pour": "Jinx",
+     "objets": [
+      {
        "fr": "Lame enragée de Guinsoo",
        "en": "Guinsoo's Rageblade"
+      },
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
       }
      ]
     }
    ],
    "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
     {
      "fr": "gants",
      "en": "gloves",
@@ -1657,20 +1697,6 @@
      "ko": "곡궁",
      "ja": "リカーブボウ",
      "zh": "反曲之弓"
-    },
-    {
-     "fr": "épée",
-     "en": "sword",
-     "ko": "B.F. 대검",
-     "ja": "B.F.ソード",
-     "zh": "暴风大剑"
-    },
-    {
-     "fr": "baguette",
-     "en": "rod",
-     "ko": "쓸데없이 큰 지팡이",
-     "ja": "ムダニデカイロッド",
-     "zh": "无用大棒"
     }
    ],
    "deblocage": {
@@ -1715,6 +1741,10 @@
     {
      "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
      "url": "https://www.metatft.com/new-set"
+    },
+    {
+     "titre": "Demacian Raptor — compos du Set 19 à tester au PBE (X, 16/11)",
+     "url": "https://x.com/demacianraptor/status/2122233408042443183"
     }
    ],
    "verdict": null
@@ -3428,6 +3458,904 @@
     {
      "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
      "url": "https://www.metatft.com/new-set"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "e-jazz-mel-locke",
+   "case": "E",
+   "confiance": "moyenne",
+   "nom": "Jazz · Mel & Locke",
+   "pourquoi": {
+    "fr": "Trois Jazz (Lucian, Galio, Bard) en complément : chaque trait actif donne des PV et de l'amplification, et ce plateau en allume neuf. Mel et Locke portent les dégâts magiques.",
+    "en": "Three Jazz (Lucian, Galio, Bard) as a splash: every active trait grants Health and Damage Amp, and this board lights up nine. Mel and Locke carry the magic damage.",
+    "ko": "세 명의 Jazz(Lucian, Galio, Bard)를 곁들입니다. 활성 시너지마다 체력과 피해 증폭을 주는데, 이 보드는 시너지 아홉 개를 켭니다. Mel과 Locke가 마법 피해를 담당합니다.",
+    "ja": "Jazz 3体（Lucian、Galio、Bard）を添えます。発動中のシナジーごとに体力とダメージ増幅が付き、この盤面は9つ発動します。MelとLockeが魔法ダメージを担います。",
+    "zh": "加入三个 Jazz（Lucian、Galio、Bard）：每个激活的羁绊都提供生命值和伤害增幅，这个阵容能开九个羁绊。Mel 和 Locke 负责法术输出。"
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Mel",
+     "cout": 4
+    },
+    {
+     "nom": "Locke",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Alistar",
+     "cout": 4
+    },
+    {
+     "nom": "Swain",
+     "cout": 3
+    },
+    {
+     "nom": "Galio",
+     "cout": 3
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Jazz",
+     "palier": 3
+    },
+    {
+     "nom": "Rock",
+     "palier": 3
+    },
+    {
+     "nom": "Arcanist",
+     "palier": 2
+    },
+    {
+     "nom": "Encore",
+     "palier": 2
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    },
+    {
+     "nom": "Swiftstriker",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Alistar",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Swain",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Galio",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Locke",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Mel",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Lucian",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Varus",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Bard",
+     "cout": 3,
+     "etoiles": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Mel",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Bâton du vide",
+       "en": "Void Staff"
+      }
+     ]
+    },
+    {
+     "pour": "Locke",
+     "objets": [
+      {
+       "fr": "Lame enragée de Guinsoo",
+       "en": "Guinsoo's Rageblade"
+      },
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Dent de Nashor",
+       "en": "Nashor's Tooth"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    }
+   ],
+   "deblocage": {
+    "nom": "Alistar",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Un plastron sur un lanceur de sorts ou un tireur : posé sur Mel le temps du déblocage, il ouvre Alistar sans détour. Avec neuf traits actifs, Smeech (7 cost) est aussi sur le chemin au niveau 9.",
+     "en": "A Chain Vest on a caster or marksman: put it on Mel until the unlock and Alistar opens with no detour. With nine active traits, Smeech (7 cost) is also on the way at level 9.",
+     "ko": "주문형 또는 원거리 딜러에게 쇠사슬 조끼: 해금될 때까지 Mel에게 들려 두면 Alistar가 바로 열립니다. 시너지가 아홉 개 켜져 있어 9레벨의 Smeech(7코스트)도 가는 길에 있습니다.",
+     "ja": "キャスターかマークスマンにチェインベスト：アンロックまでMelに持たせれば、Alistarはすぐ開きます。シナジーが9つ発動しているので、レベル9のSmeech（7コスト）も道の途中です。",
+     "zh": "让法师或射手带锁子甲：解锁前先给 Mel 带上，Alistar 直接解锁。九个羁绊激活，9 级的 Smeech（7 费）也顺路。"
+    }
+   },
+   "debut": [
+    {
+     "nom": "Lucian",
+     "cout": 2
+    },
+    {
+     "nom": "Galio",
+     "cout": 3
+    },
+    {
+     "nom": "Varus",
+     "cout": 1
+    },
+    {
+     "nom": "Swain",
+     "cout": 3
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si le bonus de Jazz par trait actif est trop faible pour compenser des traits restés au premier palier.",
+    "en": "If Jazz's per-trait bonus is too small to make up for traits stuck at their first tier.",
+    "ko": "Jazz의 시너지당 보너스가 1단계에 머문 시너지들을 메우기에 너무 약하다면.",
+    "ja": "Jazzのシナジーごとのボーナスが、第1段階に留まるシナジーを補えないほど弱い場合。",
+    "zh": "如果 Jazz 每个羁绊的加成太小，弥补不了停在第一档的那些羁绊。"
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    },
+    {
+     "titre": "Demacian Raptor — compos du Set 19 à tester au PBE (X, 16/11)",
+     "url": "https://x.com/demacianraptor/status/2122233408042443183"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "f-kda-ahri-alune",
+   "case": "F",
+   "confiance": "moyenne",
+   "nom": "K|DA · Ahri & Alune",
+   "pourquoi": {
+    "fr": "Deux porteuses magiques qui se partagent les objets : Ahri pour K|DA, Alune pour Heartsteel et Manager. Au niveau 9, Nunu et Dr. Mundo, deux 5 costs sans condition, ferment la ligne de front. Variante : Galio, Lillia et Lucian pour Jazz.",
+    "en": "Two magic carries sharing the items: Ahri for K|DA, Alune for Heartsteel and Manager. At level 9, Nunu and Dr. Mundo, two 5 costs with no unlock, close the frontline. Variant: Galio, Lillia and Lucian for Jazz.",
+    "ko": "아이템을 나눠 드는 두 마법 캐리: K|DA의 Ahri, Heartsteel과 Manager의 Alune. 9레벨에서는 해금 조건이 없는 5코스트 Nunu와 Dr. Mundo가 앞줄을 완성합니다. 변형: Jazz용 Galio, Lillia, Lucian.",
+    "ja": "アイテムを分け合う2体の魔法キャリー：K|DAのAhri、HeartsteelとManagerのAlune。レベル9では、アンロック不要の5コストNunuとDr. Mundoが前衛を締めます。派生：Jazz用にGalio、Lillia、Lucian。",
+    "zh": "两名分装备的法系主C：K|DA 的 Ahri，Heartsteel 和 Manager 的 Alune。9 级时，无需解锁的 5 费 Nunu 和 Dr. Mundo 补齐前排。变体：用 Galio、Lillia、Lucian 开 Jazz。"
+   },
+   "niveau": 9,
+   "porteurs": [
+    {
+     "nom": "Ahri",
+     "cout": 4
+    },
+    {
+     "nom": "Alune",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Garen",
+     "cout": 4
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    },
+    {
+     "nom": "Leona",
+     "cout": 4
+    },
+    {
+     "nom": "Nunu & Willump",
+     "cout": 5
+    },
+    {
+     "nom": "Dr. Mundo",
+     "cout": 5
+    }
+   ],
+   "traits": [
+    {
+     "nom": "K|DA",
+     "palier": 5
+    },
+    {
+     "nom": "Heartsteel",
+     "palier": 3
+    },
+    {
+     "nom": "Manager",
+     "palier": 3
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    },
+    {
+     "nom": "Choreographer",
+     "palier": 2
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    },
+    {
+     "nom": "Prodigy",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Garen",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Sett",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Leona",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Nunu & Willump",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Dr. Mundo",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Ahri",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Neeko",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Alune",
+     "cout": 4,
+     "etoiles": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Ahri",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Buff bleu",
+       "en": "Blue Buff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    },
+    {
+     "pour": "Alune",
+     "objets": [
+      {
+       "fr": "Bâton de l'archange",
+       "en": "Archangel's Staff"
+      },
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Bâton du vide",
+       "en": "Void Staff"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    }
+   ],
+   "deblocage": {
+    "nom": "Alune",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X champions Heartsteel ou Prodigy différents : Sett, K'Sante et Neeko le remplissent avant le niveau 8.",
+     "en": "X different Heartsteel or Prodigy champions: Sett, K'Sante and Neeko fill it before level 8.",
+     "ko": "서로 다른 Heartsteel 또는 Prodigy 챔피언 X명: Sett, K'Sante, Neeko로 8레벨 전에 채워집니다.",
+     "ja": "HeartsteelまたはProdigyの異なるチャンピオンをX体：Sett、K'Sante、Neekoでレベル8までに満たせます。",
+     "zh": "X 个不同的 Heartsteel 或 Prodigy 英雄：Sett、K'Sante 和 Neeko 在 8 级前就能凑齐。"
+    }
+   },
+   "debut": [
+    {
+     "nom": "Neeko",
+     "cout": 1
+    },
+    {
+     "nom": "Lillia",
+     "cout": 1
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    },
+    {
+     "nom": "Kayn",
+     "cout": 1
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si deux porteuses magiques au niveau 9 se partagent trop peu d'objets pour qu'aucune ne tienne.",
+    "en": "If two magic carries at level 9 split the items too thin for either to hold.",
+    "ko": "9레벨의 두 마법 캐리가 아이템을 너무 나눠 가져 둘 다 버티지 못한다면.",
+    "ja": "レベル9で2体の魔法キャリーがアイテムを分け合いすぎて、どちらも持たない場合。",
+    "zh": "如果 9 级的两名法系主C装备分得太散，谁都撑不住。"
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    },
+    {
+     "titre": "Demacian Raptor — compos du Set 19 à tester au PBE (X, 16/11)",
+     "url": "https://x.com/demacianraptor/status/2122233408042443183"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "e-ionic-aurora-graves",
+   "case": "E",
+   "confiance": "moyenne",
+   "nom": "Ionic Spark 5 · Aurora & Graves",
+   "pourquoi": {
+    "fr": "Ionic Spark 5 plutôt que 7 : on garde de la place pour Beach Pop 3 (Graves, Zac, Zoe) et un second porteur, physique. Moins vertical, donc moins contesté.",
+    "en": "Ionic Spark 5 instead of 7: room left for Beach Pop 3 (Graves, Zac, Zoe) and a second, physical carry. Less vertical, so less contested.",
+    "ko": "Ionic Spark 7 대신 5: Beach Pop 3(Graves, Zac, Zoe)과 두 번째 물리 캐리를 넣을 자리를 남깁니다. 덜 집중된 만큼 덜 겹칩니다.",
+    "ja": "Ionic Spark 7ではなく5：Beach Pop 3（Graves、Zac、Zoe）と、物理の2人目のキャリーを入れる余地を残します。縦に寄せない分、競合も少なくなります。",
+    "zh": "Ionic Spark 开 5 而不是 7：给 Beach Pop 3（Graves、Zac、Zoe）和第二名物理主C留出位置。不那么纯羁绊，也就不那么卡牌。"
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Aurora",
+     "cout": 4
+    },
+    {
+     "nom": "Graves",
+     "cout": 4
+    }
+   ],
+   "front": [
+    {
+     "nom": "Shyvana",
+     "cout": 4
+    },
+    {
+     "nom": "Zac",
+     "cout": 4
+    },
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Ionic Spark",
+     "palier": 5
+    },
+    {
+     "nom": "Beach Pop",
+     "palier": 3
+    },
+    {
+     "nom": "Arcanist",
+     "palier": 2
+    },
+    {
+     "nom": "Frontman",
+     "palier": 2
+    },
+    {
+     "nom": "Juggernaut",
+     "palier": 2
+    },
+    {
+     "nom": "Renegade",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Shyvana",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Zac",
+     "cout": 4,
+     "etoiles": 1
+    },
+    {
+     "nom": "Elise",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Annie",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Gwen",
+     "cout": 5,
+     "etoiles": 1
+    },
+    {
+     "nom": "Graves",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Aurora",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Zoe",
+     "cout": 1,
+     "etoiles": 2
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Aurora",
+     "objets": [
+      {
+       "fr": "Gantelet précieux",
+       "en": "Jeweled Gauntlet"
+      },
+      {
+       "fr": "Bâton du vide",
+       "en": "Void Staff"
+      },
+      {
+       "fr": "Coiffe de Rabadon",
+       "en": "Rabadon's Deathcap"
+      }
+     ]
+    },
+    {
+     "pour": "Graves",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Soif-de-sang",
+       "en": "Bloodthirster"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "baguette",
+     "en": "rod",
+     "ko": "쓸데없이 큰 지팡이",
+     "ja": "ムダニデカイロッド",
+     "zh": "无用大棒"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "arc",
+     "en": "bow",
+     "ko": "곡궁",
+     "ja": "リカーブボウ",
+     "zh": "反曲之弓"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Zac",
+    "cout": 4,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "X champions Beach Pop ou Juggernaut différents : Zoe, Graves et Annie y mènent. Gwen (les fans d'Ionic Spark) arrive aussi en chemin.",
+     "en": "X different Beach Pop or Juggernaut champions: Zoe, Graves and Annie lead there. Gwen (Ionic Spark fans) comes along too.",
+     "ko": "서로 다른 Beach Pop 또는 Juggernaut 챔피언 X명: Zoe, Graves, Annie로 이어집니다. Gwen(Ionic Spark 팬)도 가는 길에 해금됩니다.",
+     "ja": "Beach PopまたはJuggernautの異なるチャンピオンをX体：Zoe、Graves、Annieでたどり着きます。Gwen（Ionic Sparkのファン）も途中で手に入ります。",
+     "zh": "X 个不同的 Beach Pop 或 Juggernaut 英雄：Zoe、Graves 和 Annie 就能凑出来。Gwen（Ionic Spark 粉丝）也会顺路解锁。"
+    }
+   },
+   "debut": [
+    {
+     "nom": "Elise",
+     "cout": 1
+    },
+    {
+     "nom": "Annie",
+     "cout": 2
+    },
+    {
+     "nom": "Zoe",
+     "cout": 1
+    },
+    {
+     "nom": "Taric",
+     "cout": 1
+    }
+   ],
+   "true_damage": null,
+   "tomberait_si": {
+    "fr": "Si Beach Pop 3 ne vaut pas les deux Ionic Spark qu'on laisse de côté.",
+    "en": "If Beach Pop 3 isn't worth the two Ionic Spark units left out.",
+    "ko": "Beach Pop 3이 빼 둔 Ionic Spark 두 명만큼의 가치가 없다면.",
+    "ja": "Beach Pop 3が、外したIonic Spark 2体に見合わない場合。",
+    "zh": "如果 Beach Pop 3 不值被放弃的两个 Ionic Spark。"
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    },
+    {
+     "titre": "Demacian Raptor — compos du Set 19 à tester au PBE (X, 16/11)",
+     "url": "https://x.com/demacianraptor/status/2122233408042443183"
+    }
+   ],
+   "verdict": null
+  },
+  {
+   "id": "g-heartsteel-7",
+   "case": "G",
+   "confiance": "moyenne",
+   "nom": "Heartsteel 7 · Yone",
+   "pourquoi": {
+    "fr": "Les sept Heartsteel tiennent au niveau 8, dont deux à débloquer en chemin (Alune, puis Aphelios). Yone porte, Aphelios finit.",
+    "en": "All seven Heartsteel fit at level 8, two of them unlocked along the way (Alune, then Aphelios). Yone carries, Aphelios finishes.",
+    "ko": "Heartsteel 일곱 명이 모두 8레벨에 들어가고, 그중 둘은 가는 길에 해금됩니다(Alune, 이어서 Aphelios). Yone이 캐리하고 Aphelios가 마무리합니다.",
+    "ja": "Heartsteel 7体がレベル8にすべて収まり、うち2体は途中でアンロックされます（Alune、続いてAphelios）。Yoneがキャリーし、Apheliosが仕上げます。",
+    "zh": "七个 Heartsteel 在 8 级全部上场，其中两个在途中解锁（先 Alune，后 Aphelios）。Yone 主C，Aphelios 收尾。"
+   },
+   "niveau": 8,
+   "porteurs": [
+    {
+     "nom": "Yone",
+     "cout": 4
+    },
+    {
+     "nom": "Aphelios",
+     "cout": 5
+    }
+   ],
+   "front": [
+    {
+     "nom": "Leona",
+     "cout": 4
+    },
+    {
+     "nom": "Kayn",
+     "cout": 1
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    }
+   ],
+   "traits": [
+    {
+     "nom": "Heartsteel",
+     "palier": 7
+    },
+    {
+     "nom": "Bodyguard",
+     "palier": 2
+    },
+    {
+     "nom": "Manager",
+     "palier": 2
+    },
+    {
+     "nom": "Slayer",
+     "palier": 2
+    }
+   ],
+   "plateau": [
+    {
+     "nom": "Leona",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Kayn",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3,
+     "etoiles": 2
+    },
+    {
+     "nom": "Sett",
+     "cout": 1,
+     "etoiles": 2
+    },
+    {
+     "nom": "Yone",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Alune",
+     "cout": 4,
+     "etoiles": 2
+    },
+    {
+     "nom": "Ezreal",
+     "cout": 2,
+     "etoiles": 2
+    },
+    {
+     "nom": "Aphelios",
+     "cout": 5,
+     "etoiles": 1
+    }
+   ],
+   "objets": [
+    {
+     "pour": "Yone",
+     "objets": [
+      {
+       "fr": "Soif-de-sang",
+       "en": "Bloodthirster"
+      },
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Main de la justice",
+       "en": "Hand of Justice"
+      }
+     ]
+    },
+    {
+     "pour": "Aphelios",
+     "objets": [
+      {
+       "fr": "Lame d'infini",
+       "en": "Infinity Edge"
+      },
+      {
+       "fr": "Tueur de géants",
+       "en": "Giant Slayer"
+      },
+      {
+       "fr": "Dernier souffle",
+       "en": "Last Whisper"
+      }
+     ]
+    }
+   ],
+   "composants": [
+    {
+     "fr": "épée",
+     "en": "sword",
+     "ko": "B.F. 대검",
+     "ja": "B.F.ソード",
+     "zh": "暴风大剑"
+    },
+    {
+     "fr": "gants",
+     "en": "gloves",
+     "ko": "연습용 장갑",
+     "ja": "スパーリンググローブ",
+     "zh": "拳套"
+    },
+    {
+     "fr": "cape",
+     "en": "cloak",
+     "ko": "음전자 망토",
+     "ja": "ネガトロンクローク",
+     "zh": "负极斗篷"
+    },
+    {
+     "fr": "larme",
+     "en": "tear",
+     "ko": "여신의 눈물",
+     "ja": "女神の涙",
+     "zh": "女神之泪"
+    }
+   ],
+   "deblocage": {
+    "nom": "Aphelios",
+    "cout": 5,
+    "sur_le_chemin": true,
+    "condition": {
+     "fr": "Alune ou Yone en X étoiles : Yone en deux étoiles est déjà le plan. Alune avant : X champions Heartsteel ou Prodigy différents.",
+     "en": "Alune or Yone at X stars: a 2-star Yone is the plan anyway. Alune first: X different Heartsteel or Prodigy champions.",
+     "ko": "Alune 또는 Yone X성: 2성 Yone은 어차피 계획입니다. 그 전에 Alune: 서로 다른 Heartsteel 또는 Prodigy 챔피언 X명.",
+     "ja": "AluneまたはYoneを☆X：☆2のYoneはもともとの計画です。その前にAlune：HeartsteelまたはProdigyの異なるチャンピオンをX体。",
+     "zh": "Alune 或 Yone 升到 X 星：二星 Yone 本来就在计划里。在那之前先解锁 Alune：X 个不同的 Heartsteel 或 Prodigy 英雄。"
+    }
+   },
+   "debut": [
+    {
+     "nom": "Kayn",
+     "cout": 1
+    },
+    {
+     "nom": "Sett",
+     "cout": 1
+    },
+    {
+     "nom": "Ezreal",
+     "cout": 2
+    },
+    {
+     "nom": "K'Sante",
+     "cout": 3
+    }
+   ],
+   "true_damage": "A",
+   "tomberait_si": {
+    "fr": "Si Heartsteel 7 n'est pas plus fort que Heartsteel 5 plus deux unités choisies.",
+    "en": "If Heartsteel 7 isn't stronger than Heartsteel 5 plus two chosen units.",
+    "ko": "Heartsteel 7이 Heartsteel 5에 고른 유닛 둘을 더한 것보다 강하지 않다면.",
+    "ja": "Heartsteel 7が、Heartsteel 5に好きなユニット2体を足した盤面より強くない場合。",
+    "zh": "如果 Heartsteel 7 不比 Heartsteel 5 加两个自选英雄更强。"
+   },
+   "sources": [
+    {
+     "titre": "MetaTFT — TFT Set 19: Prismatic Tour (révélation)",
+     "url": "https://www.metatft.com/new-set"
+    },
+    {
+     "titre": "Demacian Raptor — compos du Set 19 à tester au PBE (X, 16/11)",
+     "url": "https://x.com/demacianraptor/status/2122233408042443183"
     }
    ],
    "verdict": null
